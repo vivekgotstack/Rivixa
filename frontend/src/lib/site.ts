@@ -1,3 +1,7 @@
+import womensHealth from "../../public/images/womens-health.jpg";
+import eyeCare from "../../public/images/eye-care.jpg";
+import mobility from "../../public/images/mobility.jpg";
+
 export const company = {
   name: "Rivixa Lifesciences Private Limited",
   email: "rivixalifesciences@gmail.com",
@@ -14,7 +18,7 @@ export const specialties = [
     label: "WOMEN’S HEALTH",
     number: "01",
     icon: "heart",
-    image: "/images/womens-health.jpg",
+    image: womensHealth,
     alt: "A woman enjoying a moment outdoors",
     tagline: "For every chapter of her life.",
     description:
@@ -42,7 +46,7 @@ export const specialties = [
     label: "VISION & EYE CARE",
     number: "02",
     icon: "eye",
-    image: "/images/eye-care.jpg",
+    image: eyeCare,
     alt: "A close-up of a human eye",
     tagline: "A clearer outlook on life.",
     description:
@@ -70,7 +74,7 @@ export const specialties = [
     label: "BONE, JOINT & MOBILITY",
     number: "03",
     icon: "bone",
-    image: "/images/mobility.jpg",
+    image: mobility,
     alt: "A runner climbing outdoor steps",
     tagline: "Life is made for movement.",
     description:

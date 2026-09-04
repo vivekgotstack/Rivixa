@@ -44,7 +44,8 @@ export function SpecialtyCards() {
                 src={s.image}
                 alt={s.alt}
                 fill
-                sizes="(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 33vw"
+                sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1000px) 33vw, 411px"
+                placeholder="blur"
               />
               <span className="specialty-number">{s.number} /</span>
               <span className="specialty-icon">

@@ -17,6 +17,8 @@ import {
   PartnershipCta,
   SpecialtyCards,
 } from "@/components/site-sections";
+import doctorConsultation from "../../public/images/doctor-consultation.jpg";
+import patientCare from "../../public/images/patient-care.jpg";
 export default function Home() {
   return (
     <main id="main-content">
@@ -59,11 +61,12 @@ export default function Home() {
           <div className="hero-visual">
             <div className="hero-photo">
               <Image
-                src="/images/doctor-consultation.jpg"
+                src={doctorConsultation}
                 alt="A healthcare professional in a bright clinical setting"
                 fill
-                sizes="(max-width: 700px) 100vw, 50vw"
-                priority
+                sizes="(max-width: 700px) calc(100vw - 65px), (max-width: 1400px) 44vw, 563px"
+                preload
+                placeholder="blur"
               />
               <div className="hero-photo-shade" />
             </div>
@@ -142,10 +145,11 @@ export default function Home() {
           <div className="about-visual">
             <div className="about-photo">
               <Image
-                src="/images/patient-care.jpg"
+                src={patientCare}
                 alt="A doctor and patient in conversation during a consultation"
                 fill
-                sizes="(max-width: 700px) 100vw, 50vw"
+                sizes="(max-width: 700px) calc(100vw - 57px), (max-width: 1400px) 43vw, 550px"
+                placeholder="blur"
               />
             </div>
             <div className="about-image-caption">

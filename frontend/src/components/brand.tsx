@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import rivixaLogo from "../../public/images/rivixa-logo.jpeg";
 export function Brand({ light = false }: { light?: boolean }) {
   return (
     <Link
@@ -9,11 +10,12 @@ export function Brand({ light = false }: { light?: boolean }) {
     >
       <span className="brand-symbol" aria-hidden="true">
         <Image
-          src="/images/rivixa-logo.jpeg"
+          src={rivixaLogo}
           alt=""
           width={83}
           height={123}
           unoptimized
+          loading="eager"
         />
       </span>
       <span className="brand-wordmark">

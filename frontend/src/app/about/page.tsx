@@ -8,6 +8,7 @@ import {
   Eyebrow,
   PartnershipCta,
 } from "@/components/site-sections";
+import patientCare from "../../../public/images/patient-care.jpg";
 export const metadata: Metadata = {
   title: "About Rivixa",
   description:
@@ -31,11 +32,12 @@ export default function AboutPage() {
         <div className="container about-grid">
           <div className="about-page-image">
             <Image
-              src="/images/patient-care.jpg"
+              src={patientCare}
               alt="A healthcare professional listening to a patient"
               fill
-              sizes="(max-width: 700px) 100vw, 50vw"
-              priority
+              sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1400px) 45vw, 575px"
+              preload
+              placeholder="blur"
             />
           </div>
           <div className="about-copy">

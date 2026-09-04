@@ -54,8 +54,9 @@ export default async function SpecialtyPage({
               src={s.image}
               alt={s.alt}
               fill
-              sizes="(max-width: 700px) 100vw, 50vw"
-              priority
+              sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1400px) 44vw, 563px"
+              preload
+              placeholder="blur"
             />
             <span className="detail-image-label">OUR FOCUS / {s.number}</span>
           </div>
