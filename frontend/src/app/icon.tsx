@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+export const dynamic = "force-static";
 import { join } from "node:path";
 import { readFile } from "node:fs/promises";
 

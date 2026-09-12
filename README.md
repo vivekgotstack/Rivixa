@@ -24,6 +24,7 @@ A focused corporate healthcare experience connecting healthcare professionals an
 ## Experience
 
 - Dedicated Gynaecology, Ophthalmology and Orthopedic pages.
+- Permanent frontend catalogue with 146 sourced product records, search, group and brand filters, and product enquiries. See [catalogue data notes](frontend/CATALOGUE.md).
 - Company profile, guiding principles and Mumbai and Lucknow office information.
 - Professional enquiry flow with specialty selection and a reviewable email draft.
 - Responsive navigation, accessible form controls and keyboard support.
@@ -40,6 +41,8 @@ A focused corporate healthcare experience connecting healthcare professionals an
 | Backend foundation | Spring Boot 4 · Java 21, maintained separately |
 
 The web application lives in `frontend/`; the backend foundation lives in `backend/`. The current release operates independently of the backend. Enquiries are prepared locally and sent through the visitor’s email application. No server-side enquiry storage is connected.
+
+From `frontend/`, run `npm run build` to export the complete website into `out/`. Deploy `out/` to a static host. `npm start` previews those files locally on port 3000 (override with `PORT`); `npm run dev` runs the development environment. Catalogue values are bundled from source, with no database or browser persistence.
 
 ## Brand & ownership
 

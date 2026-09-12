@@ -1,6 +1,7 @@
 "use client";
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { ArrowUpRight, Check, Copy, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -15,7 +16,8 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { company, specialties } from "@/lib/site";
-export function ContactForm({ area }: { area?: string }) {
+export function ContactForm() {
+  const area = useSearchParams().get("area") ?? undefined;
   const [draft, setDraft] = useState<{ subject: string; body: string } | null>(
     null,
   );

@@ -1,0 +1,1756 @@
+[
+  {
+    "name": "AQUAGEL OINTMENT",
+    "category": "Lubricant",
+    "composition": "Hydroxy Propyl Methyl Cellulose 2%, Sodium Chloride 0.490%, Potassium Chloride 0.075%, Calcium Chloride 0.048%, Magnesium Chloride 0.030%, Sodium Acetate 0.390%, Sodium Citrate 0.170%",
+    "pack": "5 GM",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquagel-ointment",
+    "id": "raymed-aquagel-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "AQUANAC EYE DROP",
+    "category": "Lubricant",
+    "composition": "N-acetyl Carnosine 1%, Sodium Carboxy methyl Cellulose 0.3%, Glycerin 1%, Boric Acid 0.3% Benzyl Alcohol 0.1%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquanac-eye-drop",
+    "id": "raymed-aquanac-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "AQUARAY EYE DROP",
+    "category": "Lubricant",
+    "composition": "CMC 0.5%",
+    "pack": "10 ML/15 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquaray-eye-drop-10ml",
+    "id": "raymed-aquaray-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "AQUARAY GEL EYE DROP",
+    "category": "Lubricant",
+    "composition": "Carboxymethyl Cellulose Sodium 1%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquaray-gel-eye-drop",
+    "id": "raymed-aquaray-gel-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "AQUARAY PLUS",
+    "category": "Lubricant",
+    "composition": "Sodium Hyaluronate 0.18%, Erythritol, Glycerine, CMC, Boric acid, Calcium chloride Dihydrate, Magnesium Chloride Hexahydrate, Potassium Chloride, Sodium Borate, Sodium Citrate Dihydrate, Stabilized oxychloro complex 0.005%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquaray-plus-eye-drop",
+    "id": "raymed-aquaray-plus",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "AQUARAY-FORTE EYE DROP",
+    "category": "Lubricant",
+    "composition": "HPMC 0.3%, Glycerin 0.2%, Dextran70 0.1%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/aquaray-forte-eye-drop",
+    "id": "raymed-aquaray-forte-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-azcape",
+    "name": "Azcape",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Azithromycin eye ointment 1% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/azcape/"
+  },
+  {
+    "id": "neomedix-bepokul",
+    "name": "BEPOKUL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-allergic",
+    "composition": "Bepotastine Besilate Ophthalmic Solution 1.5% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-allergics/bepokul-2/"
+  },
+  {
+    "name": "BRIMED-T EYE DROP",
+    "category": "Anti Glaucoma",
+    "composition": "Brimonidine Tartrate – 0.2%, Timolol Maleate – 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/brimed-t-eye-drop",
+    "id": "raymed-brimed-t-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-brimosoft",
+    "name": "BRIMOSOFT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Brimonidine Tartrate Eye Drops IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/brimosoft-brimonidine-tartrate-eye-drops/"
+  },
+  {
+    "id": "neomedix-brimosoftt",
+    "name": "BRIMOSOFT-T",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Brimonidine Tartrate & Timolol Maleate Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/brimosoft-t/"
+  },
+  {
+    "id": "neomedix-brimosofttpf",
+    "name": "BRIMOSOFT-TPF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Brimonidine Tartrate & Trimolol Maleate Opthalmic Solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/brimosoft-tpf-brimonidine-tartrate-trimolol-maleate-opthalmic-solution/"
+  },
+  {
+    "id": "neomedix-brinmide",
+    "name": "BRINMIDE",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Brinzolamide Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/brinmide-eye-drops/"
+  },
+  {
+    "id": "neomedix-brinmideb",
+    "name": "BRINMIDE-B",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Brinzolamide & Brimonidine Tartrate Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/brinmide-b-brinzolamide-brimonidine-tartrate-eye-drops/"
+  },
+  {
+    "id": "neomedix-bysipin",
+    "name": "BYSIPIN",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Childhood Myopia",
+    "composition": "Atropine Sulphate Ophthalmic Solution USP 0.01% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/childhood-myopia/bysipin-atropine-sulphate-ophthalmic-solution/"
+  },
+  {
+    "name": "CATARAY EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Potassium Iodide IP 3.3%, Calcium Chloride 1.0%, Sodium Chloride 0.83%",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/cataray-eye-drop",
+    "id": "raymed-cataray-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "CETACOL EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Chloramphenicol 0.5%, Sulphacetamide 20%, Chloro-M-cresol 0.05%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/cetacol-eye-drop",
+    "id": "raymed-cetacol-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-chlorcom",
+    "name": "CHLORCOM",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Chloramphenicol Polymyxin B Sulphate",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/chlorcom-ointment-chloramphenicol-polymyxin-b-sulphate/"
+  },
+  {
+    "id": "neomedix-chlorcomdx",
+    "name": "CHLORCOM-DX",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Steroids",
+    "composition": "Chloramphenicol IP, Polymyxin B Sulphate BP & Dexamethasone Sodium Phosphate IP Ophthalmic Ointment",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/chlorcom-dx-eye-ointment/"
+  },
+  {
+    "id": "neomedix-chlorcomh",
+    "name": "CHLORCOM-H",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "Chloramphenicol with Hydrocortisone Acetate Eye Ointment",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives/chlorcom-h/"
+  },
+  {
+    "name": "CONAZOL EYE DROP",
+    "category": "Anti Fungal",
+    "composition": "Itraconazole 1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/conazol-eye-drop",
+    "id": "raymed-conazol-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "CYCLORAY EYE DROP",
+    "category": "Mydriatics/Cycloplegics",
+    "composition": "Cyclopentolate HCI 1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/cycloray-eye-drop",
+    "id": "raymed-cycloray-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-cynq",
+    "name": "CYNQ",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/tear-substitutes/"
+  },
+  {
+    "id": "neomedix-cynqds",
+    "name": "CYNQ-DS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Cyclosporine Eye Drops IP 0.1% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/cynq-ds-cyclosporine-eye-drops-ip/"
+  },
+  {
+    "id": "neomedix-divitor",
+    "name": "DIVITOR",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Fertility Supplements",
+    "composition": "Alpha Lipoic Acid 200 mg Leucine 800 mg Tablet",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/divitor-tablets/"
+  },
+  {
+    "id": "neomedix-dorfort",
+    "name": "DORFORT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Dorzolamide Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/dorfort-2/"
+  },
+  {
+    "id": "neomedix-dorfortt",
+    "name": "DORFORT-T",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Dorzolamide & Timolol Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/dorfort-t-2/"
+  },
+  {
+    "id": "neomedix-dorforttpf",
+    "name": "DORFORT-T PF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Dorzolamide & Timolol Eye Drops IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/dorfort-t-pf-2/"
+  },
+  {
+    "name": "DOZE-T EYE DROP",
+    "category": "Anti Glaucoma",
+    "composition": "Dorzolamide HCL 2.0%, Timolol Maleate – 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/doze-t-eye-drop",
+    "id": "raymed-doze-t-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-dumega600",
+    "name": "DUMEGA-600",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Omega 3 Marine Triglycerides Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/dumega-600-2/"
+  },
+  {
+    "id": "neomedix-fertivisionfnew",
+    "name": "FERTIVISION-F New",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Fertility Supplements",
+    "composition": "Coenzyme Q10, DHEA, Vitamin D3, L Leucine Tablets",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/gynecology/fertivision-f-coenzyme-q10-dhea-vitamin-d3-l-leucine-tablets/"
+  },
+  {
+    "id": "neomedix-fertivisionm",
+    "name": "FERTIVISION-M",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Fertility Supplements",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/fertivision-m/"
+  },
+  {
+    "name": "FROMELON EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Fluorometholone 0.1%, Polyvinyl Alcohol 1.4%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/fromelon-eye-drop",
+    "id": "raymed-fromelon-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "FROMELON-T EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Fluorometholone 0.1%, Tobramycin Ophthalmic Suspension 0.3%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/fromelon-t-eye-drop",
+    "id": "raymed-fromelon-t-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-gaticom",
+    "name": "GATICOM",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/anti-infectives/"
+  },
+  {
+    "id": "neomedix-gaticomp",
+    "name": "GATICOM-P",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "Gatifloxacin 0.3 % & Prednisolone Acetate 1% Ophthalmic Suspension",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/gaticom-p-2/"
+  },
+  {
+    "name": "GATIRAY EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Gatifloxacin 0.3%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/gatiray-eye-drop",
+    "id": "raymed-gatiray-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "GATIRAY-5 EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Gatifloxacin 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/gatiray-5-eye-drop",
+    "id": "raymed-gatiray-5-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "GATIRAY-B EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Gatifloxacin 0.3%, Betamethasone 0.1%, HPMC 0.025%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/gatiray-b-eye-drop",
+    "id": "raymed-gatiray-b-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "GATIRAY-L EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Gatifloxacin 0.5%, Loteprednol Etabonate 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/gatiray-l-eye-drop",
+    "id": "raymed-gatiray-l-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "GATIRAY-P EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Gatifloxacin 0.3%, Prednisolone Acetate 1%",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/gatiray-p-eye-drop",
+    "id": "raymed-gatiray-p-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-hylosoft",
+    "name": "HYLOSOFT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium hyaluronate eye drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/hylosoft/"
+  },
+  {
+    "id": "neomedix-hylosofteco",
+    "name": "HYLOSOFT ECO",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Ophthalmic Solution 0.1% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/hylosoft-eco/"
+  },
+  {
+    "id": "neomedix-hylosoftgel",
+    "name": "HYLOSOFT GEL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Ophthalmic Soulution 0.18% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/hylosoft-gel-2/"
+  },
+  {
+    "id": "neomedix-hylosofthpf",
+    "name": "HYLOSOFT HPF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Ophthalmic Solution 0.3% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/hylosoft-hpf-2/"
+  },
+  {
+    "id": "neomedix-hylosoftmax",
+    "name": "HYLOSOFT MAX",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/hylosoft-max-eye-drop/"
+  },
+  {
+    "name": "HYLOTEARS EYE DROPS",
+    "category": "Lubricant",
+    "composition": "Sodium Hyaluronate 0.1%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/hylotears-eye-drops",
+    "id": "raymed-hylotears-eye-drops",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-intiwipes",
+    "name": "INTIWIPES",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Intimate Hygiene",
+    "composition": "Sodium hyaluronate, lactic acid and tea tree oil; natural intimate cleansing wipes",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/intiwipes-natural-intimate-cleansing-wipes/"
+  },
+  {
+    "name": "ITOCIN EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Tobramycin USP 0.3%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/itocin-eye-drop",
+    "id": "raymed-itocin-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "KETRODEX EYE DROP",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Ketorolac Tromethamine 0.5%, Dexamethasone Sodium Phosphate 0.01%, Hydroxypropyl methyl cellulose 0.025%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/ketrodex-eye-drop",
+    "id": "raymed-ketrodex-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "KETROMIN EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Ketorolac Tromethamine 0.5%, HPMC 0.25%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/ketromin-eye-drop",
+    "id": "raymed-ketromin-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "KETROMIN-LS EYE DEOP",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Ketorolac Tromethamine 0.4%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/ketromin-ls-eye-deop",
+    "id": "raymed-ketromin-ls-eye-deop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "KETROMIN-O EYE DROP",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Ofloxacin BP 0.3%, Ketorolac Tromethamine 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/ketromin-o-eye-drop",
+    "id": "raymed-ketromin-o-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-kinderwoods",
+    "name": "KINDERWOODS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/kinderwoods-gummies/"
+  },
+  {
+    "id": "neomedix-latpf",
+    "name": "LAT-PF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Latanoprost eye drops IP 0.005% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/lat-pf-latanoprost-eye-drops-ip-0-005-w-v/"
+  },
+  {
+    "id": "neomedix-lofidolsp",
+    "name": "LOFIDOL-SP",
+    "areas": [
+      "orthopedic"
+    ],
+    "category": "Pain & inflammation",
+    "composition": "Aceclofenac, Paracetamol & Serratiopeptidase Tablets",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/general-products/lofidol-sp-aceclofenac-paracetamol-serratiopeptidase-tablets/"
+  },
+  {
+    "name": "LOTEMED EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Loteprednol Etabonate 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/lotemed-eye-drop",
+    "id": "raymed-lotemed-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "LOTEMED EYE OINTMENT",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Loteprednol Etabonate 0.5% w/w",
+    "pack": "5GM",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/lotemed-eye-ointment",
+    "id": "raymed-lotemed-eye-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-lotevail",
+    "name": "LOTEVAIL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Steroids",
+    "composition": "Loteprednol Etabonate Ophthalmic Suspension",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/steroids/lotevail-loteprednol-etabonate-ophthalmic-suspension/"
+  },
+  {
+    "id": "neomedix-macuvon",
+    "name": "MACUVON",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Omega 3 Fatty Acid, Bilberry Extract, Pine Bark Extract, Lutein, Zeaxanthin, Astaxanthin, Zinc & Multivitamin Soft Gelatin Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/macuvon/"
+  },
+  {
+    "id": "neomedix-macuvonforte",
+    "name": "MACUVON FORTE",
+    "areas": [
+      "ophthalmology",
+      "gynaecology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Omega-3 Fatty Acid, Coenzyme Q10, Lycopene, Selenium, Wheat Germ Oil, L-Arginine, L-Carnitine and Zinc Soft Gelatin Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/macuvon-forte/"
+  },
+  {
+    "id": "neomedix-macuvonplussyrup",
+    "name": "MACUVON PLUS SYRUP",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Multivitamin, Multimineral with DHA & Antioxidant",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/macuvon-plus-syrup/"
+  },
+  {
+    "id": "neomedix-macuvon4g",
+    "name": "MACUVON-4G",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/macuvon-4g/"
+  },
+  {
+    "id": "neomedix-macuvonaf",
+    "name": "Macuvon-AF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-floaters",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/anti-floaters/"
+  },
+  {
+    "id": "neomedix-macuvong",
+    "name": "MACUVON-G",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Lutein, Lycopene, Astaxanthin, Grape Seed Extract, Vitamin A, Multivitamin & Multimineral Tablets",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/macuvon-g-lutein-lycopene-astaxanthin-grape-seed-extract-vitamin-a-multivitamin-multimineral-tablets/"
+  },
+  {
+    "id": "neomedix-natafol",
+    "name": "NATAFOL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Natamycin Ophthalmic Suspension IP 5%",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/decongestants/natafol-natamycin-ophthalmic-suspension-ip-5/"
+  },
+  {
+    "name": "NATRAY EYE DROP",
+    "category": "Anti Fungal",
+    "composition": "Natamycin 5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/natray-eye-drop",
+    "id": "raymed-natray-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-neodg",
+    "name": "NEO DG",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Progesterones",
+    "composition": "Dydrogesterone Tablets IP 10 mg",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/neo-dg-dydrogesterone-tablets-ip-10-mg/"
+  },
+  {
+    "id": "neomedix-neopgsr200",
+    "name": "NEO PG SR 200",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Progesterones",
+    "composition": "Progesterone Sustained Release Tablets 200 mg",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/neo-pg-progesterone-sustained-release-tablets-200-mg/"
+  },
+  {
+    "id": "neomedix-neoplant",
+    "name": "NEOPLANT",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Fertility Supplements",
+    "composition": "L-Leucine 400mg, L-Arginine 3gm Sachet",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/neoplant-l-leucine-400mg-l-arginine-3gm-sachet/"
+  },
+  {
+    "name": "NEPANAC EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Nepafenac 0.1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/nepanac-eye-drop",
+    "id": "raymed-nepanac-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-nepavon",
+    "name": "NEPAVON",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Nsaids",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/nsaids/nepavon-nepafenac-ophthalmic-suspension/"
+  },
+  {
+    "id": "neomedix-nepavoncs",
+    "name": "NEPAVON-CS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Nsaids",
+    "composition": "Nepafenac Ophthalmic Solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/nsaids/nepavon-cs-nepafenac-ophthalmic-solution/"
+  },
+  {
+    "id": "neomedix-nepavonod",
+    "name": "NEPAVON-OD",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Nsaids",
+    "composition": "Nepafenac Ophthalmic Suspension 0.3% x/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/nepavon-od-nepafenac-ophthalmic-suspension/"
+  },
+  {
+    "id": "neomedix-nextob",
+    "name": "NEXTOB",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Tobramycin Ophthalmic Solution USP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives/nextob-2/"
+  },
+  {
+    "id": "neomedix-nfmeyedrops",
+    "name": "NFM Eye Drops",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Decongestants",
+    "composition": "Naphazoline Hydrochloride Opthalmic Solution USP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/nfm-eye-drops-naphazoline-hydrochloride-opthalmic-solution-usp/"
+  },
+  {
+    "id": "neomedix-ocuwipes",
+    "name": "OCUWIPES",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Lid Hygiene",
+    "composition": "Premium Sterile Wipes Normal Saline",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/lid-hygiene/ocuwipes-premium-sterile-wipes-normal-saline/"
+  },
+  {
+    "id": "neomedix-ocuwipesat",
+    "name": "OCUWIPES-AT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Lid Hygiene",
+    "composition": "Premium Sterile Cleansing Wipes",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocuwipes-at-premium-sterile-cleansing-wipes/"
+  },
+  {
+    "name": "OFRAY EYE/EAR DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Ofloxacin 0.3%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/ofray-eye-ear-drop",
+    "id": "raymed-ofray-eye-ear-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "OLOMED EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Olopatadine Hydrochloride 1.11mg eq. to Olopatadine 1mg",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/olomed-eye-drop",
+    "id": "raymed-olomed-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "OLOMED-KT EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Olopatadine Hydrochloride 1%, Ketorolac Tromethamine 0.4%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/olomed-kt-eye-drop",
+    "id": "raymed-olomed-kt-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-optimask",
+    "name": "OPTIMASK",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Lid Hygiene",
+    "composition": "Reusable hot/cold gel eye mask",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/optimask-hot-cold-gel-eye-mask-reusable-warm-cold-compress-for-eye-therapy/"
+  },
+  {
+    "id": "neomedix-optimoist",
+    "name": "OPTIMOIST",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Carboxymethylcellulose Eye Drops IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/optimoist-carboxymethylcellulose-eye-drops-ip/"
+  },
+  {
+    "id": "neomedix-optimoistcomplete",
+    "name": "OPTIMOIST COMPLETE",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Polyethylene Glycol 400 IP 0.4% w/v; Propylene Glycol IP 0.3% w/v; stabilized oxychloro complex 0.005% w/v. Sterile lubricant eye drops.",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/optimoist-complete/"
+  },
+  {
+    "id": "neomedix-optimoistforte",
+    "name": "OPTIMOIST FORTE",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Hydroxypropylmethylcellulose with Glycerin & Dextran 70 Ophthalmic Solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/optimoist-forte-2/"
+  },
+  {
+    "id": "neomedix-optimoistultra",
+    "name": "OPTIMOIST ULTRA",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Polyethylene Glycol 400 & Propylene Glycol Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/optimoist-ultra-polyethylene-glycol-400-propylene-glycol-eye-drops/"
+  },
+  {
+    "id": "neomedix-optimoistds",
+    "name": "OPTIMOIST-DS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Carboxymethylcellulose Eye Drops IP 1% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/optimoist-ds-carboxymethylcellulose-eye-drops-ip/"
+  },
+  {
+    "id": "neomedix-optimoistgel",
+    "name": "OPTIMOIST-GEL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Hydroxypropyl Methylcellulose (Hypromellose) Ophthalmic Gel",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/optimoist-gel-2/"
+  },
+  {
+    "id": "neomedix-oxysite",
+    "name": "OXYSITE",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Vitamin C, Vitamin E, Zinc, Lutein & Zeaxanthin Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/oxysite-vitamin-c-vitamin-e-zinc-lutein-zeaxanthin-capsules/"
+  },
+  {
+    "id": "neomedix-oxysitecrs",
+    "name": "OXYSITE CRS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Curcumin, Resveratrol, Piperine, Saffron Extract, Lute-gen Plus, Ultragen Omega 3,6,9, MCT Powder and Zinc Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/oxysute-crs-curcumin-resveratrol-piperine-saffron-extract-lute-gen-plus-ultragen-omega-369-mct-powder-and-zinc-capsules/"
+  },
+  {
+    "id": "neomedix-oxysiteplus",
+    "name": "OXYSITE PLUS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "Bilberry Extract, Pine Bark Extract, Lutein, Astaxanthin, Zeaxanthin with Essential Vitamins & Minerals Tablets",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/eye-vitamins/oxysite-plus-bilberry-extract-pine-bark-extract-lutein-astaxanthin-zeaxanthin-with-essential-vitamins-minerals-tablets/"
+  },
+  {
+    "id": "neomedix-patif",
+    "name": "PATIF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-allergic",
+    "composition": "Olopatadine 0.2% w/v; stabilized oxychloro complex 0.005% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-allergics/patif-olopatadine-ophthalmic-solution-ip/"
+  },
+  {
+    "id": "neomedix-patifkt",
+    "name": "PATIF KT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-allergic",
+    "composition": "Olopatadine Hydrochloride with Ketorolac Tromethamine Ophthalmic Solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-allergics/patif-kt-2/"
+  },
+  {
+    "id": "neomedix-patifmax",
+    "name": "PATIF MAX",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-allergic",
+    "composition": "Olopatadine Hydrochloride Ophthalmic Solution IP 0.7% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/patif-max-eye-drop/"
+  },
+  {
+    "name": "PHERIN-M EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Chlorpheniramine Maleate 0.2%, Phenylepherine HCl 0.12%, HPMC 0.02% Phenyl mercuric Nitrate",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/pherin-m-eye-drop",
+    "id": "raymed-pherin-m-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-ptropplus",
+    "name": "PTROP PLUS",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Pupil Dilator",
+    "composition": "Tropicamide with Phenylephrine ophthalmic solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tropicamide-with-phenylephrine-opthalmic-solution-ptrop-plus-eye-drops/"
+  },
+  {
+    "name": "R-SITE CAPSULE",
+    "category": "Anti Oxidant",
+    "composition": "Lutein 3.2mg, L-Glutathione 5mg, Beta-carotene 6000 IU, Vitamin E 15 IU, Vitamin C 150mg, Copper 2mg, Manganese 5mg, Selenium 40mcg, Zinc 40mg",
+    "pack": "10 Capsules",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/r-site-capsule",
+    "id": "raymed-r-site-capsule",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-raybond3-oral-solution",
+    "name": "RAYBON D3",
+    "areas": [
+      "orthopedic"
+    ],
+    "category": "Bone health",
+    "composition": "Cholecalciferol oral solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/raybon-d3/"
+  },
+  {
+    "id": "neomedix-raybond3",
+    "name": "RAYBON-D3",
+    "areas": [
+      "orthopedic"
+    ],
+    "category": "Bone health",
+    "composition": "Cholecalciferol Capsules USP 60,000 IU",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/general-products/raybon-d3-cholecalciferol-capsules-usp-60000-iu/"
+  },
+  {
+    "name": "RAYBROM EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Bromfenac sodium eq. to Bromfenac 0.09%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raybrom-eye-drop",
+    "id": "raymed-raybrom-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYCORT EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Prednisolone Acetate 1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raycort-eye-drop",
+    "id": "raymed-raycort-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYCROM-4 EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Sodium Cromoglycate 4%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raycrom-4-eye-drop",
+    "id": "raymed-raycrom-4-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYDEX-C EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Chloramphenicol 1.0%, Dexamethasone Sodium Phosphate 0.01%, HPMC 0.25%, Phenyl mercuric nitrate 0.001%",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raydex-c-eye-drop",
+    "id": "raymed-raydex-c-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYFLUR EYE DROP",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Flurbiprofen 0.03%, HPMC 0.25%, Phenyl mercuric nitrate 0.002%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/rayflur-eye-drop",
+    "id": "raymed-rayflur-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMEG-3G CAPSULE",
+    "category": "Anti Oxidant",
+    "composition": "Omega 3, Omega 6, Omega 9 (Derived from Flaxseed Oil)",
+    "pack": "3 x 10 Capsules",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymeg-3g-capsule",
+    "id": "raymed-raymeg-3g-capsule",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMIED-P EYE DROP",
+    "category": "Mydriatics/Cycloplegics",
+    "composition": "Tropicamide 0.8%, Phenylepherine Hydrochloride 5%, Chlorbutol 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymied-p-eye-drop",
+    "id": "raymed-raymied-p-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOIST EYE DROP",
+    "category": "Lubricant",
+    "composition": "Polyethylene Glycol (400) 0.4%, Propylene Glycol 0.3%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoist-eye-drop",
+    "id": "raymed-raymoist-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Moxifloxacin 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-eye-drop",
+    "id": "raymed-raymoxi-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI OINTMENT",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "MoxifloxacinHydrochloride eq to Moxifloxacin base BP 0.5%",
+    "pack": "5 GM",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-ointment",
+    "id": "raymed-raymoxi-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI-D EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Moxifloxacin 0.5%, Dexamethasone Phosphate 0.1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-d-eye-drop",
+    "id": "raymed-raymoxi-d-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI-K EYE DROP",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Moxifloxacin HCl 0.5%, Ketorolac Tromethamine 0.4%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-k-eye-drop",
+    "id": "raymed-raymoxi-k-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI-L EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Moxifloxacin 0.5%, Loteprednol Etabonate 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-l-eye-drop",
+    "id": "raymed-raymoxi-l-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI-P EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Moxifloxacin 0.5%, Prednisolone Acetate 1%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-p-eye-drop",
+    "id": "raymed-raymoxi-p-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYMOXI-T EYE DROP",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Moxifloxacin 0.5%, Tobramycin Sulphate 0.3%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raymoxi-t-eye-drop",
+    "id": "raymed-raymoxi-t-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYPOL-DX OINTMENT",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Polymyxin-B Sulphate 10000 Units, Chloramphenicol 10 mg, Dexamethasone Sodium Phosphate 1 mg",
+    "pack": "5 gm",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raypol-dx-ointment",
+    "id": "raymed-raypol-dx-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYPROST EYE DROP",
+    "category": "Anti Glaucoma",
+    "composition": "Travoprost 0.004%, Self Preservative",
+    "pack": "3 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/rayprost-eye-drop",
+    "id": "raymed-rayprost-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYSOFT EYE DROP",
+    "category": "Lubricant",
+    "composition": "Carboxy Methyl Cellulose Sodium 0.5%, Glycerine 0.5%",
+    "pack": "10 ML",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raysoft-eye-drop",
+    "id": "raymed-raysoft-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYSOL-5 EYE DROP",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Sodium Chloride 5%",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raysol-5-eye-drop",
+    "id": "raymed-raysol-5-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYSOL-6 EYE OINTMENT",
+    "category": "Anti Inflammatory Combinations",
+    "composition": "Sodium Chloride 6%",
+    "pack": "5 gm",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raysol-6-eye-ointment",
+    "id": "raymed-raysol-6-eye-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYTONE EYE DROP",
+    "category": "Extended Speciality",
+    "composition": "Boerhavia diffusa 300 mg, Butea parviflora 120mg, Rosa damascene 120mg, Berberis aristata 80 mg, Aloe indica 100 mg, Terminalia bellerica 100mg, Meliaaz adirachta 40 mg, Emblica officinalis 40 mg, Hyperanthera moringa 30mg, Terminalia Chebula 25mg, Glycerin 19.2mg, Vitex Negundo 25 mg, Soda Viboras 5mcg, Mentha Sylvestris 1mcg, Madhu 1mcg, Capmhora 1mcg",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raytone-eye-drop",
+    "id": "raymed-raytone-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYTONE PLUS EYE DROP",
+    "category": "Extended Speciality",
+    "composition": "Boerhavia diffusa 300 mg, Butea parviflora 120mg, Rosa damascene 120mg, Berberis aristata 80 mg, Aloe indica 100 mg, Terminalia bellerica 100mg, Meliaaz adirachta 40 mg, Emblica officinalis 40 mg, Hyperanthera moringa 30mg, Terminalia Chebula 25mg, Glycerin 19.2mg, Vitex Negundo 25 mg, Soda Viboras 5mcg, Mentha Sylvestris 1mcg, Madhu 1mcg, Capmhora 1mcg",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/raytone-plus-eye-drop",
+    "id": "raymed-raytone-plus-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYVIT PLUS CAPSULE",
+    "category": "Anti Oxidant",
+    "composition": "Alpha Lipoic Acid 50mg, Omega-3 Fatty Acid 500mg, Mixed Carotenoids 30% Suspension 10mg, Zinc Sulphate 1.5mg, Lycopene 10% 5mg, Manganese 1.5mg, Copper 1mg , Piclinate 200mcg , Selenium 150mcg",
+    "pack": "10 and 30 Capsules",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/rayvit-plus-capsule",
+    "id": "raymed-rayvit-plus-capsule",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RAYVIT-L CAPSULE",
+    "category": "Anti Oxidant",
+    "composition": "L-arginine 25mg , Vitamin E 25mg , Betacarotene 10mg, Lutein 7mg , Copper 1mg, Manganese 1mg, Methylcobalamin 100mcg, Selenious acid 100mcg",
+    "pack": "10 Capsules",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/rayvit-l-capsule",
+    "id": "raymed-rayvit-l-capsule",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "RETICHLOR-H OINTMENT",
+    "category": "Antibiotic/Antibiotic with Steroids",
+    "composition": "Chloramphenicol IP 1.0%, Hydrocortisone Acetate 0.5%",
+    "pack": "5 gm",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/retichlor-h-ointment",
+    "id": "raymed-retichlor-h-ointment",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "TIMLOL-PF EYE DROP",
+    "category": "Anti Glaucoma",
+    "composition": "Timolol Maleate – 0.5%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/timlol-pf-eye-drop",
+    "id": "raymed-timlol-pf-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-travstar",
+    "name": "TRAVSTAR",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Travoprost Eye Drops IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/travstar-travoprost-eye-drops/"
+  },
+  {
+    "id": "neomedix-travstarpf",
+    "name": "TRAVSTAR-PF",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Ocular Hypotensives",
+    "composition": "Travoprost Eye Drops IP 0.004% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/ocular-hypotensives/travstar-pf-travoprost-eye-drops/"
+  },
+  {
+    "id": "neomedix-trehasoft",
+    "name": "TREHASOFT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Ophthalmic Solution",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/tear-substitutes/trehasoft-2/"
+  },
+  {
+    "id": "neomedix-trehasofteco",
+    "name": "TREHASOFT ECO",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Tear Substitutes",
+    "composition": "Sodium Hyaluronate Opthalmic Solution 0.18% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/trehasoft-eco-eye-drop/"
+  },
+  {
+    "name": "TROPIN EYE DROP",
+    "category": "Extended Speciality",
+    "composition": "Atropine Sulphate 0.01%",
+    "pack": "5 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/tropin-eye-drop",
+    "id": "raymed-tropin-eye-drop",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-truflur",
+    "name": "TRUFLUR",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Nsaids",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/truflur-eye-drops/"
+  },
+  {
+    "id": "neomedix-vcofol",
+    "name": "VCOFOL",
+    "areas": [
+      "ophthalmology",
+      "gynaecology"
+    ],
+    "category": "Eye Vitamins",
+    "composition": "L-Methylfolate Calcium, Methylcobalamin, Pynidoxal-5-Phosphate, DHA & Vitamin D3 Capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/gynecology/vcofol/"
+  },
+  {
+    "id": "neomedix-vcofolxt",
+    "name": "VCOFOL XT",
+    "areas": [
+      "gynaecology"
+    ],
+    "category": "Prenatal Vitamins",
+    "composition": "L-Methyl folate, Pyridoxal-5-Phosphate, Methylcobalamin capsules",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/vcofol-xt-l-methyl-folate-pyridoxal-5-phosphate-methylcobalamin-capsules/"
+  },
+  {
+    "id": "neomedix-vigopred",
+    "name": "VIGOPRED",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Steroids",
+    "composition": "Prednisolone Acetate Ophthalmic Suspension USP 1.0% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/steroids/vigopred-prednisolone-acetate-ophthalmic-suspension-usp-1-0-w-v/"
+  },
+  {
+    "id": "neomedix-vigoquin",
+    "name": "VIGOQUIN",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Moxifloxacin Eye Drops IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/vigoquin/"
+  },
+  {
+    "id": "neomedix-vigoquinointment",
+    "name": "VIGOQUIN OINTMENT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Moxifloxacin eye ointment 0.5% w/w",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/vigoquin-ointment/"
+  },
+  {
+    "id": "neomedix-vigoquindx",
+    "name": "VIGOQUIN-DX",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "Moxifloxacin & Dexamethasone Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/vigoquin-dx-moxifloxacin-dexamethasone-eye-drops/"
+  },
+  {
+    "id": "neomedix-vigoquingel",
+    "name": "VIGOQUIN-GEL",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Moxifloxacin Eye Drops IP 0.5% w/v",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/vigoquin-gel/"
+  },
+  {
+    "id": "neomedix-vigoquinkt",
+    "name": "VIGOQUIN-KT",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/antibiotics-and-combination/vigoquin-kt/"
+  },
+  {
+    "id": "neomedix-vigoquinlp",
+    "name": "VIGOQUIN-LP",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "Loteprednol Etabonate & Moxifloxcin Ophthalmic Suspension",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/vigoquin-lp-loteprednol-etabonate-moxifloxcin-ophthalmic-suspension/"
+  },
+  {
+    "id": "neomedix-vigoquinpd",
+    "name": "VIGOQUIN-PD",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/vigoquin-pd/"
+  },
+  {
+    "id": "neomedix-vigoquint",
+    "name": "VIGOQUIN-T",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives",
+    "composition": "Tobramycin & Moxifloxacin Eye Drops",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/vigoquin-t/"
+  },
+  {
+    "name": "VITAMAX PLUS CAPSULE",
+    "category": "Anti Oxidant",
+    "composition": "Ginseng extract powder 20mg + Ascorbic Acid(Vit C) 15mg + Zinc Sulphate 21mg + Tocopherol acetate(50% dry) Vit E 15mg + Lutein(8%) 10000mcg + Grape seed extract(4:1) 5000mcg + Lycopene (6%) 4000mcg",
+    "pack": "10 Capsules",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/vitamax-plus-capsule",
+    "id": "raymed-vitamax-plus-capsule",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "name": "ZEECOOL-PLUS",
+    "category": "NSAID/Anti Allergic",
+    "composition": "Chlorpheniramine Maleate 0.01% + Naphazoline HCL 0.056% + Zinc Sulphate 0.12% + HPMC 0.2%",
+    "pack": "10 ml",
+    "source": "Raymed",
+    "sourceUrl": "https://www.raymedindia.com/product/zeecool-plus",
+    "id": "raymed-zeecool-plus",
+    "areas": [
+      "ophthalmology"
+    ]
+  },
+  {
+    "id": "neomedix-zyofm",
+    "name": "ZYOFM",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Steroids",
+    "composition": "Fluorometholone Acetate Ophthalmic Suspension",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/steroids/zyofm/"
+  },
+  {
+    "id": "neomedix-zyofmt",
+    "name": "ZYOFM -T",
+    "areas": [
+      "ophthalmology"
+    ],
+    "category": "Anti-infectives + Steroid Combos",
+    "composition": "Tobramycin and Fluotometholone Acetate Ophthalmic Suspension IP",
+    "pack": "",
+    "source": "Neomedix",
+    "sourceUrl": "https://neomedixhealthcare.com/index.php/anti-infectives-steroid-combos/zyofm-t-tobramycin-and-fluotometholone-acetate-ophthalmic-suspension-ip/"
+  }
+]

@@ -6,6 +6,8 @@ import { ArrowRight, ArrowUpRight, ChevronRight } from "lucide-react";
 import { specialties } from "@/lib/site";
 import { Button } from "@/components/ui/button";
 import { Eyebrow, PartnershipCta } from "@/components/site-sections";
+import { ProductCatalogue } from "@/components/product-catalogue";
+import { products } from "@/lib/products";
 export function generateStaticParams() {
   return specialties.map((s) => ({ slug: s.slug }));
 }
@@ -48,6 +50,9 @@ export default async function SpecialtyPage({
                 <ArrowUpRight size={17} />
               </Link>
             </Button>
+            <div style={{ marginTop: 20 }}>
+              <a href="#products" className="text-link">Browse products <ArrowRight size={17} /></a>
+            </div>
           </div>
           <div className="detail-image">
             <Image
@@ -82,6 +87,7 @@ export default async function SpecialtyPage({
               </article>
             ))}
           </div>
+          <ProductCatalogue products={products.filter((p) => p.areas.includes(s.slug))} area={s.name} />
           <div className="portfolio-callout">
             <div>
               <h3>Looking for portfolio information?</h3>

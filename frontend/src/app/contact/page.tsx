@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { ArrowUpRight, Mail, MapPin } from "lucide-react";
 import { Eyebrow } from "@/components/site-sections";
 import { ContactForm } from "@/components/contact-form";
@@ -8,12 +9,7 @@ export const metadata: Metadata = {
   description:
     "Connect with Rivixa Lifesciences for professional enquiries, portfolio information and partnerships. Find our Mumbai and Lucknow offices.",
 };
-export default async function ContactPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ area?: string }>;
-}) {
-  const { area } = await searchParams;
+export default function ContactPage() {
   return (
     <main id="main-content">
       <section className="page-intro contact-intro">
@@ -78,7 +74,9 @@ export default async function ContactPage({
               </address>
             ))}
           </div>
-          <ContactForm area={area} />
+          <Suspense fallback={<p>Loading enquiry form…</p>}>
+            <ContactForm />
+          </Suspense>
         </div>
       </section>
     </main>

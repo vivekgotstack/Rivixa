@@ -62,7 +62,7 @@ export function SpecialtyCards() {
               </div>
               <p>{s.description}</p>
               <span className="text-link">
-                Explore our focus
+                Explore products & care
                 <ArrowRight size={16} />
               </span>
             </div>
