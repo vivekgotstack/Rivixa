@@ -1,6 +1,6 @@
 # Website image assets
 
-Generated with the built-in image-generation tool on 5 October 2026. WebP copies are used in the website. The original supplied PDFs remain the source for label facts. Generic pack concepts are explicitly marked as illustrative with details pending.
+The laboratory hero, joint illustration and packshots were generated with the built-in image-generation tool on 5 October 2026. WebP copies are used in the website. The Gynaecology image is a real stock photograph sourced below. The original supplied PDFs remain the source for label facts. Generic pack concepts are explicitly marked as illustrative with details pending.
 
 ## moxivix
 
@@ -76,9 +76,9 @@ Prompt: Photorealistic editorial hero image for an Indian lifesciences company. 
 
 ## maternal-care
 
-Saved asset: `public/images/maternal-care.webp`
+Saved asset: `public/images/maternal-care-real.jpg`
 
-Prompt: Photorealistic editorial healthcare photography, 4:3 landscape composition. An adult Indian pregnant woman in a soft sage green maternity dress, three-quarter view, gently cradling her visibly pregnant belly with both hands, warm relaxed expression. Bright understated white and mint clinical setting, soft daylight, refined calm navy-and-mint medical website aesthetic, frame head through thighs so her pregnant belly is clear even in wide crop. Subject centered, no text, no logos.
+Source: [Daniel Reche / Pexels · 1556669](https://www.pexels.com/photo/pregnant-woman-1556669/). Real maternity photograph of a belly supported by hands, with no face in frame. Hosted locally without alterations. This replaces the generated maternity portrait.
 
 ## joint-care
 

@@ -582,7 +582,7 @@ h2 > span {
   transform: scale(1.045);
 }
 .specialty-gynaecology .specialty-photo img {
-  object-position: center 48%;
+  object-position: left center;
 }
 .specialty-ophthalmology .specialty-photo img {
   object-position: center;
@@ -1070,7 +1070,7 @@ h2 > span {
   letter-spacing: 2px;
 }
 .specialty-gynaecology .detail-image img {
-  object-position: center 48%;
+  object-position: left center;
 }
 .focus-grid {
   display: grid;

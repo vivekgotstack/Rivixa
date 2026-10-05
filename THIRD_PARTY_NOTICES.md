@@ -12,7 +12,8 @@ The frontend uses Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, Radix UI,
 | --- | --- |
 | Doctor–patient consultation | [cottonbro studio / Pexels · 7579831](https://www.pexels.com/photo/7579831/) |
 | Eye close-up | [Unsplash · photo-1494869042583-f6c911f04b4c](https://images.unsplash.com/photo-1494869042583-f6c911f04b4c) |
+| Maternity belly close-up | [Daniel Reche / Pexels · 1556669](https://www.pexels.com/photo/pregnant-woman-1556669/) |
 
 Stock photography is representative and does not identify Rivixa employees, patients or facilities. The Rivixa logo and product packaging artwork were supplied for this project.
 
-The laboratory hero, maternal-care photograph, joint illustration and product packshots are AI-generated illustrative assets. Product packshots must not be treated as approved manufacturing artwork.
+The laboratory hero, joint illustration and product packshots are AI-generated illustrative assets. Product packshots must not be treated as approved manufacturing artwork.
