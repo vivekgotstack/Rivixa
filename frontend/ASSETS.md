@@ -76,9 +76,9 @@ Prompt: Photorealistic editorial hero image for an Indian lifesciences company. 
 
 ## maternal-care
 
-Saved asset: `public/images/maternal-care-dress.jpg`
+Saved asset: `public/images/maternal-care-light-blue.jpg`
 
-Source: [Sairam Rasa / Pexels · 20761816](https://www.pexels.com/photo/pregnant-woman-standing-in-blue-dress-20761816/). Real solo maternity portrait in a navy-blue dress. Cropped to a landscape frame that preserves the woman's face, hands and visible bump. Hosted locally; no AI generation or retouching.
+Source: [Matilda Wormwood / Pexels · 7484612](https://www.pexels.com/photo/pregnant-woman-touching-her-belly-7484612/). The user selected this real face-free maternity photograph in light-blue clothing. A landscape crop centres the bump and the woman's own hands. Hosted locally; no AI generation or retouching.
 
 ## joint-care
 

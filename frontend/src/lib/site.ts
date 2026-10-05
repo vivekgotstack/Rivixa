@@ -1,4 +1,4 @@
-import womensHealth from "../../public/images/maternal-care-dress.jpg";
+import womensHealth from "../../public/images/maternal-care-light-blue.jpg";
 import eyeCare from "../../public/images/eye-care.jpg";
 import mobility from "../../public/images/joint-care.webp";
 
@@ -19,7 +19,7 @@ export const specialties = [
     number: "01",
     icon: "heart",
     image: womensHealth,
-    alt: "A pregnant woman in a navy-blue maternity dress gently cradling her bump",
+    alt: "Face-free close-up of a pregnant woman in light-blue clothing cradling her bump",
     tagline: "For every chapter of her life.",
     description:
       "A dedicated focus on women’s health, with care and understanding at every stage of life.",
