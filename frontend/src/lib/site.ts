@@ -1,6 +1,6 @@
-import womensHealth from "../../public/images/womens-health.jpg";
+import womensHealth from "../../public/images/maternal-care.webp";
 import eyeCare from "../../public/images/eye-care.jpg";
-import mobility from "../../public/images/mobility.jpg";
+import mobility from "../../public/images/joint-care.webp";
 
 export const company = {
   name: "Rivixa Lifesciences Private Limited",
@@ -19,7 +19,7 @@ export const specialties = [
     number: "01",
     icon: "heart",
     image: womensHealth,
-    alt: "A woman enjoying a moment outdoors",
+    alt: "A pregnant woman gently cradling her belly",
     tagline: "For every chapter of her life.",
     description:
       "A dedicated focus on women’s health, with care and understanding at every stage of life.",
@@ -75,7 +75,7 @@ export const specialties = [
     number: "03",
     icon: "bone",
     image: mobility,
-    alt: "A runner climbing outdoor steps",
+    alt: "An anatomical illustration of a knee joint and cartilage",
     tagline: "Life is made for movement.",
     description:
       "A focus on bone and joint health, inspired by the freedom to move and live more fully.",

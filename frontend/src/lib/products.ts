@@ -7,8 +7,9 @@ export type Product = {
   category: string;
   composition: string;
   pack: string;
-  source: string;
-  sourceUrl: string;
+  image: string;
+  leaflet?: string;
+  pending?: boolean;
 };
 
 // Permanent, bundled catalogue. Updating this file requires a new frontend build.

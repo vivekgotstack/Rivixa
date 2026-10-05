@@ -11,6 +11,7 @@ const mime = {
   ".txt": "text/plain; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg", ".svg": "image/svg+xml", ".webp": "image/webp",
   ".ico": "image/x-icon", ".woff2": "font/woff2", ".webmanifest": "application/manifest+json",
+  ".pdf": "application/pdf",
 };
 await stat(root).catch(() => { throw new Error("Build the site first: npm run build"); });
 

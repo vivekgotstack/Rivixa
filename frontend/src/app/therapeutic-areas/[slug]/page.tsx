@@ -28,6 +28,7 @@ export default async function SpecialtyPage({
   const { slug } = await params;
   const s = specialties.find((s) => s.slug === slug);
   if (!s) notFound();
+  const areaProducts = products.filter((p) => p.areas.includes(s.slug));
   return (
     <main id="main-content">
       <nav aria-label="Breadcrumb" className="container breadcrumbs">
@@ -50,9 +51,9 @@ export default async function SpecialtyPage({
                 <ArrowUpRight size={17} />
               </Link>
             </Button>
-            <div style={{ marginTop: 20 }}>
+            {areaProducts.length > 0 && <div style={{ marginTop: 20 }}>
               <a href="#products" className="text-link">Browse products <ArrowRight size={17} /></a>
-            </div>
+            </div>}
           </div>
           <div className="detail-image">
             <Image
@@ -87,7 +88,7 @@ export default async function SpecialtyPage({
               </article>
             ))}
           </div>
-          <ProductCatalogue products={products.filter((p) => p.areas.includes(s.slug))} area={s.name} />
+          <ProductCatalogue products={areaProducts} area={s.name} />
           <div className="portfolio-callout">
             <div>
               <h3>Looking for portfolio information?</h3>

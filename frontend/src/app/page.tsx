@@ -17,7 +17,7 @@ import {
   PartnershipCta,
   SpecialtyCards,
 } from "@/components/site-sections";
-import doctorConsultation from "../../public/images/doctor-consultation.jpg";
+import scienceHero from "../../public/images/science-hero.webp";
 import patientCare from "../../public/images/patient-care.jpg";
 export default function Home() {
   return (
@@ -61,8 +61,8 @@ export default function Home() {
           <div className="hero-visual">
             <div className="hero-photo">
               <Image
-                src={doctorConsultation}
-                alt="A healthcare professional in a bright clinical setting"
+                src={scienceHero}
+                alt="A scientist using a precision pipette in a bright life-sciences laboratory"
                 fill
                 sizes="(max-width: 700px) calc(100vw - 65px), (max-width: 1400px) 44vw, 563px"
                 preload
@@ -78,7 +78,7 @@ export default function Home() {
             />
             <div className="hero-image-label">
               <span />
-              <span>THE HUMAN SIDE OF SCIENCE</span>
+              <span>SCIENCE WITH PURPOSE</span>
             </div>
             <div className="hero-float">
               <span className="float-icon">

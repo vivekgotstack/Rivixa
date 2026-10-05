@@ -1,11 +1,11 @@
 # Frontend catalogue
 
-The catalogue is committed in `src/lib/products.json` and imported through the typed `src/lib/products.ts` module. Search and filters run in memory. There is no API, database, IndexedDB, localStorage or runtime catalogue download. Edit the JSON and rebuild to update it.
+The catalogue is bundled from src/lib/products.json. It contains only the nine Rivixa eye-drop products requested for Ophthalmology. Search and group filters run locally; no external catalogue, database or runtime download is used.
 
-Sources: [Neomedix Healthcare](https://neomedixhealthcare.com/) and [Raymed](https://www.raymedindia.com/our-products), reviewed 12 September 2026. Every record retains its source URL and brand. The data contains product facts, not copied marketing descriptions or dosing instructions. Pack sizes appear only where published and retrieved.
+Six formulations and pack sizes come from locally supplied packaging PDFs: MOXIVIX, MOXIVIX-LP, NEPAVIX-CS, LOTEVIX, HYLOVIX and AQUAVIX. HYLOVIX's supplied front artwork does not state a strength, so no strength is published. The Nepavix source filename contains CX, but the actual label reads NEPAVIX-CS.
 
-146 distinct records: 135 Ophthalmology listings, 10 Gynaecology listings and 3 Orthopedic listings. Two products occur in multiple areas. Orthopedic contains the two Raybon D3 presentations and Lofidol-SP. Unrelated ENT, dermatology, migraine and gastrointestinal products are excluded. Reference brand names are retained; listings do not establish Rivixa manufacture or availability.
+GATIVIX, MOXIVIX-DX and AQUAVIX-FORTE have generic illustrative packaging as approved by the user. Composition and pack size remain unpublished until confirmed PDFs are supplied. Their cards clearly indicate pending details.
 
-Some source listings link to the wrong product, redirect to the home page, or have no retrievable specification. Unverified composition is left empty and displayed as requiring confirmation. Do not fill these gaps from another product's linked page. The affected entries are CYNQ, GATICOM, VIGOQUIN-KT, VIGOQUIN-PD, Macuvon-AF, KINDERWOODS, MACUVON-4G, FERTIVISION-M, NEPAVON and TRUFLUR.
+Product images are generated illustrative carton-and-bottle mockups, not photographs of physical stock. Six are based on supplied artwork; three are generic brand concepts. Source PDFs are served locally through product cards. Gynaecology and Orthopedic pages retain their care content and enquiry links without unsupported product listings.
 
-`npm run build` exports the complete website to `out/`. Deploy that directory to any static host with directory-index support. Images are served as static assets. The contact page reads its category query in the browser; enquiries are prepared locally and sent by the visitor through their email application.
+Run npm run build to export the site to out/. Publishing requires deploying that folder to the site's static host.
