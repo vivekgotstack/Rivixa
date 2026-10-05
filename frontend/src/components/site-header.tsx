@@ -21,6 +21,10 @@ import {
 import { company, specialties } from "@/lib/site";
 export function SiteHeader() {
   const pathname = usePathname();
+  const currentPath = pathname.replace(/\/$/, "") || "/";
+  const selectedArea = specialties.find(
+    (area) => currentPath === `/therapeutic-areas/${area.slug}`,
+  );
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -60,7 +64,7 @@ export function SiteHeader() {
                   variant="ghost"
                   className={`nav-dropdown ${pathname.startsWith("/therapeutic-areas") ? "active" : ""}`}
                 >
-                  Therapeutic areas
+                  {selectedArea?.name ?? "Therapeutic areas"}
                   <ChevronDown size={14} />
                 </Button>
               </DropdownMenuTrigger>
@@ -76,6 +80,7 @@ export function SiteHeader() {
                     <Link
                       href={`/therapeutic-areas/${s.slug}`}
                       className="py-3"
+                      aria-current={selectedArea?.slug === s.slug ? "page" : undefined}
                     >
                       {s.name}
                       <ArrowUpRight className="ml-auto" />
@@ -120,7 +125,7 @@ export function SiteHeader() {
                   ["/#our-commitment", "Our commitment"],
                   ["/contact", "Contact us"],
                 ].map(([href, label]) => (
-                  <Link key={href} href={href} onClick={() => setOpen(false)}>
+                  <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
                     {label}
                     <ArrowUpRight size={16} />
                   </Link>

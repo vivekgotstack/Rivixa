@@ -76,9 +76,9 @@ Prompt: Photorealistic editorial hero image for an Indian lifesciences company. 
 
 ## maternal-care
 
-Saved asset: `public/images/maternal-care-blue.jpg`
+Saved asset: `public/images/maternal-care-solo.jpg`
 
-Source: [Holy Lenses / Pexels · 34397720](https://www.pexels.com/photo/intimate-pregnant-couple-embrace-in-blue-34397720/). Real photograph of hands supporting a clothed maternity bump in teal-blue fabric with navy tones, with no face in frame. Hosted locally without alterations to match the website's blue palette.
+Source: [MART PRODUCTION / Pexels · 7088480](https://www.pexels.com/photo/photo-of-person-holding-her-stomach-7088480/). Real clinic photograph of a woman in a light-blue shirt resting her own hands on a clothed maternity bump, with no face in frame. The left edge is lightly cropped to keep the focus on her. Hosted locally; no AI generation or retouching.
 
 ## joint-care
 
