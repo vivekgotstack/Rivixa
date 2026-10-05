@@ -1,6 +1,6 @@
 # Website image assets
 
-The laboratory hero, joint illustration and packshots were generated with the built-in image-generation tool on 5 October 2026. WebP copies are used in the website. The Gynaecology image is a real stock photograph sourced below. The original supplied PDFs remain the source for label facts. Generic pack concepts are explicitly marked as illustrative with details pending.
+The laboratory hero, joint illustration and packshots were generated with the built-in image-generation tool on 5 October 2026. WebP copies are used in the website. The Gynaecology image is a real stock photograph sourced below. All nine product packshots use the supplied PDFs as packaging references; the original PDFs remain the source for label facts.
 
 ## moxivix
 
@@ -54,19 +54,27 @@ Prompt: Product-mockup for Rivixa medical website. One upright realistic eye-dro
 
 Saved asset: `public/products/gativix-3d.webp`
 
-Prompt: Product-mockup for Rivixa medical website. One upright realistic eye-drop carton and one capped white plastic dropper bottle beside it, three-quarter studio view, isolated on pure white background, soft contact shadow, centered with generous margins, complete objects, premium photorealistic 3D pharmaceutical packshot. Concept packaging only. Exact front text "GATIVIX", "EYE DROPS", "Rivixa". White carton with navy #143b69 and teal #377e69 minimal curved bands. Bottle label same. Do not add composition, strength, volume, claims, certifications, dosing, pricing or other text. This is an unverified illustrative pack concept.
+Reference: `public/products/gativix.pdf` (user-supplied PDF, rendered locally), with `public/products/moxivix-3d.webp` as the studio style reference.
+
+Prompt: Use case: product-mockup. Create a premium realistic 3D pharmaceutical packshot for the Rivixa website. First reference is the supplied flat packaging artwork: fold its exact front and side into one upright physical carton with one capped white plastic dropper bottle beside it. Second reference is the existing MOXIVIX packshot: match its clean white background, soft contact shadow, three-quarter view, framing and studio lighting, but use ONLY the first reference's product design, name, colours and size. Complete objects with generous margins, centered, no extra objects, no flat dielines, no manufacturing placeholders, no invented claims or text. Preserve the supplied artwork, Rivixa logo and label text. Gativix Eye Drops, Gatifloxacin Ophthalmic Solution, 5ml. Exact white/red flowing artwork with magenta Gativix name and blue shield with silver cross. Side composition Gatifloxacin 0.5% w/v.
+
+GATIVIX correction prompt (built-in tool): Make exactly one text correction in this Gativix packshot, preserving all objects, framing, artwork, colours, typography and all other text. On the visible carton LEFT side composition panel, change the preservative concentration from '0.02%w/v' to exactly '0.02%v/v' after Benzalkonium Chloride Solution IP. Important the Gatifloxacin concentration must remain 0.5%w/v. Do not change any other details.
 
 ## moxivix-dx
 
 Saved asset: `public/products/moxivix-dx-3d.webp`
 
-Prompt: Product-mockup for Rivixa medical website. One upright realistic eye-drop carton and one capped white plastic dropper bottle beside it, three-quarter studio view, isolated on pure white background, soft contact shadow, centered with generous margins, complete objects, premium photorealistic 3D pharmaceutical packshot. Concept packaging only. Exact front text "MOXIVIX-DX", "EYE DROPS", "Rivixa". White carton with navy #143b69 and teal #377e69 minimal curved bands. Bottle label same. Do not add composition, strength, volume, claims, certifications, dosing, pricing or other text. This is an unverified illustrative pack concept.
+Reference: `public/products/moxivix-dx.pdf` (user-supplied PDF, rendered locally), with `public/products/moxivix-3d.webp` as the studio style reference.
+
+Prompt: Use case: product-mockup. Create a premium realistic 3D pharmaceutical packshot for the Rivixa website. First reference is the supplied flat packaging artwork: fold its exact front and side into one upright physical carton with one capped white plastic dropper bottle beside it. Second reference is the existing MOXIVIX packshot: match its clean white background, soft contact shadow, three-quarter view, framing and studio lighting, but use ONLY the first reference's product design, name, colours and size. Complete objects with generous margins, centered, no extra objects, no flat dielines, no manufacturing placeholders, no invented claims or text. Preserve the supplied artwork, Rivixa logo and label text. MOXIVIX-DX, Moxifloxacin & Dexamethasone Eye Drops, 10 ml. Navy blue and cyan curved bands, green DX suffix, BAK FREE droplet. Side composition each ml Moxifloxacin 5mg, Dexamethasone Phosphate 1mg.
 
 ## aquavix-forte
 
 Saved asset: `public/products/aquavix-forte-3d.webp`
 
-Prompt: Product-mockup for Rivixa medical website. One upright realistic eye-drop carton and one capped white plastic dropper bottle beside it, three-quarter studio view, isolated on pure white background, soft contact shadow, centered with generous margins, complete objects, premium photorealistic 3D pharmaceutical packshot. Concept packaging only. Exact front text "AQUAVIX-FORTE", "EYE DROPS", "Rivixa". White carton with navy #143b69 and teal #377e69 minimal curved bands. Bottle label same. Do not add composition, strength, volume, claims, certifications, dosing, pricing or other text. This is an unverified illustrative pack concept.
+Reference: `public/products/aquavix-forte.pdf` (user-supplied PDF, rendered locally), with `public/products/moxivix-3d.webp` as the studio style reference.
+
+Prompt: Use case: product-mockup. Create a premium realistic 3D pharmaceutical packshot for the Rivixa website. First reference is the supplied flat packaging artwork: fold its exact front and side into one upright physical carton with one capped white plastic dropper bottle beside it. Second reference is the existing MOXIVIX packshot: match its clean white background, soft contact shadow, three-quarter view, framing and studio lighting, but use ONLY the first reference's product design, name, colours and size. Complete objects with generous margins, centered, no extra objects, no flat dielines, no manufacturing placeholders, no invented claims or text. Preserve the supplied artwork, Rivixa logo and label text. AQUAVIX FORTE Eye Drops, Hydroxypropylmethylcellulose, Glycerin, Dextran 70 Eye Drops, STERILE / 10 ML. Preserve blue eye within a water droplet and splash artwork, purple AQUAVIX and green FORTE. Side composition Hydroxypropylmethylcellulose 0.3% w/v, Dextran 70 0.1% w/v, Glycerin 0.2% w/v.
 
 ## science-hero
 
