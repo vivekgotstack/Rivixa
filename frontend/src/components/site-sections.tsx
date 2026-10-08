@@ -9,7 +9,6 @@ import {
   HeartHandshake,
   Microscope,
   ShieldCheck,
-  Sparkles,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { specialties } from "@/lib/site";
@@ -80,25 +79,21 @@ export function PartnershipCta() {
           <div>
             <Eyebrow light>BETTER, TOGETHER</Eyebrow>
             <h2>
-              Let’s move healthcare
+              Better care begins
               <br />
-              forward. <span>Together.</span>
+              <span>with a conversation.</span>
             </h2>
             <p>
-              Meaningful progress starts with a conversation. Let’s connect.
+              For healthcare professionals, distributors and partners.
+              Connect with our team.
             </p>
           </div>
-          <Button asChild className="button-mint">
+          <Button asChild className="button-ice">
             <Link href="/contact">
               Partner with Rivixa
               <ArrowUpRight size={18} />
             </Link>
           </Button>
-          <HeartHandshake
-            className="cta-decoration"
-            aria-hidden="true"
-            strokeWidth={0.7}
-          />
         </div>
       </div>
     </section>
@@ -109,14 +104,14 @@ export function Commitments() {
     {
       icon: ShieldCheck,
       number: "01",
-      title: "Quality as a mindset",
-      text: "Our ambition is to make quality a consideration in every decision, every collaboration and every step forward.",
+      title: "Responsibility in every decision",
+      text: "Quality is a priority in how we choose our partners, develop our portfolio and approach our work.",
     },
     {
       icon: Microscope,
       number: "02",
       title: "A scientific outlook",
-      text: "We believe meaningful healthcare progress begins with curiosity, informed thinking and a willingness to keep learning.",
+      text: "We listen to healthcare professionals and continue to learn from the needs of clinical practice.",
     },
     {
       icon: HeartHandshake,
@@ -132,9 +127,9 @@ export function Commitments() {
           <div>
             <Eyebrow>THE RIVIXA COMMITMENT</Eyebrow>
             <h2>
-              Grounded in purpose.
+              Our principles.
               <br />
-              <span>Guided by care.</span>
+              <span>Our responsibility.</span>
             </h2>
           </div>
           <p>
@@ -156,7 +151,6 @@ export function Commitments() {
           ))}
         </div>
         <div className="commitment-note">
-          <Sparkles size={16} />
           <span>
             A shared ambition: thoughtful healthcare, meaningful human impact.
           </span>

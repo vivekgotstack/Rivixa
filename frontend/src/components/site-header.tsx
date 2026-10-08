@@ -31,7 +31,7 @@ export function SiteHeader() {
       <div className="topbar">
         <div className="container topbar-inner">
           <span>
-            <i />A healthier tomorrow begins with care.
+            <i />Pharmaceutical care. With people at its heart.
           </span>
           <a href={`mailto:${company.email}`}>
             <Mail size={13} />
@@ -93,7 +93,7 @@ export function SiteHeader() {
           </nav>
           <Button asChild className="header-contact">
             <Link href="/contact">
-              Let’s connect
+              Contact us
               <ArrowUpRight size={16} />
             </Link>
           </Button>

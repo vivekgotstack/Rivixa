@@ -13,7 +13,7 @@ export default function OpenGraphImage() {
         flexDirection: "column",
         justifyContent: "space-between",
         padding: "65px 80px",
-        background: "#eff6f3",
+        background: "#f3f8fc",
         color: "#133764",
       }}
     >
@@ -47,7 +47,7 @@ export default function OpenGraphImage() {
         }}
       >
         <span>Advancing science.</span>
-        <span style={{ color: "#37836b" }}>Caring for life.</span>
+        <span style={{ color: "#006fae" }}>Caring for life.</span>
       </div>
       <div style={{ display: "flex", gap: 40, fontSize: 23, color: "#476570" }}>
         <span>Gynaecology</span>

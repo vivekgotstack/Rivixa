@@ -4,8 +4,6 @@ import {
   ArrowDown,
   ArrowRight,
   ArrowUpRight,
-  Cross,
-  Heart,
   HeartHandshake,
   Microscope,
   ShieldCheck,
@@ -25,20 +23,20 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-copy">
-            <Eyebrow>SCIENCE WITH PURPOSE. CARE WITH HEART.</Eyebrow>
+            <Eyebrow>RIVIXA LIFESCIENCES · INDIA</Eyebrow>
             <h1>
-              Advancing science.
+              Focused on care.
               <br />
-              Caring for <span>life.</span>
+              Committed to <span>life.</span>
             </h1>
             <p>
-              Inspired by people. Driven by possibility. We’re building a
-              healthier tomorrow through a focused commitment to life sciences.
+              A focused pharmaceutical company with people at its heart.
+              Exploring better care in women’s health, vision and mobility.
             </p>
             <div className="hero-actions">
               <Button asChild size="lg">
                 <Link href="/therapeutic-areas">
-                  Explore our therapeutic areas
+                  Our therapeutic areas
                   <ArrowUpRight size={18} />
                 </Link>
               </Button>
@@ -47,16 +45,7 @@ export default function Home() {
                 <ArrowRight size={17} />
               </Link>
             </div>
-            <div className="hero-footnote">
-              <span className="hero-footnote-icon">
-                <HeartHandshake size={20} strokeWidth={1.5} />
-              </span>
-              <span>
-                Three areas of focus.
-                <br />
-                <strong>One purpose. Better lives.</strong>
-              </span>
-            </div>
+            <div className="hero-footnote"><span>WOMEN’S HEALTH</span><span>VISION</span><span>MOBILITY</span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-photo">
@@ -64,31 +53,13 @@ export default function Home() {
                 src={scienceHero}
                 alt="A scientist using a precision pipette in a bright life-sciences laboratory"
                 fill
-                sizes="(max-width: 700px) calc(100vw - 65px), (max-width: 1400px) 44vw, 563px"
+                sizes="(max-width: 700px) 100vw, 50vw"
                 preload
                 placeholder="blur"
               />
               <div className="hero-photo-shade" />
             </div>
-            <Cross
-              className="hero-cross"
-              size={62}
-              strokeWidth={1}
-              aria-hidden="true"
-            />
-            <div className="hero-image-label">
-              <span />
-              <span>SCIENCE WITH PURPOSE</span>
-            </div>
-            <div className="hero-float">
-              <span className="float-icon">
-                <Heart size={25} strokeWidth={1.5} />
-              </span>
-              <div>
-                At the heart of what we do.<strong>People. Always.</strong>
-              </div>
-              <span className="float-dot" />
-            </div>
+            <div className="hero-editorial-caption"><span>01 / OUR OUTLOOK</span><p>Scientific thinking.<br />Human understanding.</p></div>
           </div>
         </div>
         <div className="container hero-bottom">
@@ -118,16 +89,15 @@ export default function Home() {
             <div>
               <Eyebrow>OUR THERAPEUTIC AREAS</Eyebrow>
               <h2>
-                Focused expertise.
+                Three areas of care.
                 <br />
-                <span>Meaningful possibilities.</span>
+                <span>A lifetime of difference.</span>
               </h2>
             </div>
             <p>
-              Our journey begins with three areas of care.
-              <br />
-              Each distinct. All connected by a commitment
-              <br className="desktop-break" /> to people and their wellbeing.
+              Our focus brings together women’s health, eye care and
+              musculoskeletal wellbeing. Explore our therapeutic areas and
+              product portfolio.
             </p>
           </div>
           <SpecialtyCards />
@@ -156,19 +126,13 @@ export default function Home() {
               <span className="caption-line" />
               <span>Every possibility begins with a person.</span>
             </div>
-            <div className="about-stamp">
-              <span>OUR PURPOSE</span>
-              <HeartHandshake size={35} strokeWidth={1.25} />
-              <strong>Better lives.</strong>
-            </div>
           </div>
           <div className="about-copy">
             <Eyebrow>GET TO KNOW RIVIXA</Eyebrow>
             <h2>
-              A new perspective.
-              <br />A deeply human
+              Behind the science,
               <br />
-              <span>purpose.</span>
+              <span>there is always a person.</span>
             </h2>
             <p>
               At Rivixa Lifesciences, we believe the real value of science lies
