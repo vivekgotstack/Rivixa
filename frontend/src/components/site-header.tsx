@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/sheet";
 import {
   DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger,
-  DropdownMenuPortal, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger,
+  DropdownMenuPortal, DropdownMenuSeparator, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger,
 } from "@/components/ui/dropdown-menu";
 import { company } from "@/lib/site";
 import { companyLinks, productLinks, sectionLinks } from "@/lib/navigation";
@@ -20,6 +20,7 @@ export function SiteHeader() {
   const pathname = usePathname();
   const currentPath = pathname.replace(/\/$/, "") || "/";
   const inProducts = currentPath.startsWith("/products") || currentPath.startsWith("/therapeutic-areas");
+  const inOptions = inProducts || [...companyLinks, ...sectionLinks].some(({ href }) => href !== "/" && currentPath === href);
   const [open, setOpen] = useState(false);
 
   return (
@@ -36,25 +37,27 @@ export function SiteHeader() {
         <div className="container header-inner">
           <Brand />
           <nav aria-label="Main navigation" className="desktop-nav">
-            {companyLinks.map(({ href, label }) => (
-              <Link key={href} href={href} className={currentPath === href ? "active" : ""} aria-current={currentPath === href ? "page" : undefined}>
-                {label}
-              </Link>
-            ))}
+            <Link href="/" className={currentPath === "/" ? "active" : ""} aria-current={currentPath === "/" ? "page" : undefined}>Home</Link>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className={`nav-dropdown ${inProducts ? "active" : ""}`}>
-                  Products<ChevronDown size={14} />
+                <Button variant="ghost" className={`nav-dropdown ${inOptions ? "active" : ""}`}>
+                  Options<ChevronDown size={14} />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-64 p-2">
-                <DropdownMenuItem asChild>
-                  <Link href="/products" className="py-3">All products<ArrowUpRight className="ml-auto" /></Link>
-                </DropdownMenuItem>
+                {companyLinks.filter(({ href }) => href !== "/").map(({ href, label }) => (
+                  <DropdownMenuItem key={href} asChild>
+                    <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>{label}<ArrowUpRight className="ml-auto" /></Link>
+                  </DropdownMenuItem>
+                ))}
                 <DropdownMenuSub>
-                  <DropdownMenuSubTrigger className="py-3">Categories</DropdownMenuSubTrigger>
+                  <DropdownMenuSubTrigger className="py-3">Products</DropdownMenuSubTrigger>
                   <DropdownMenuPortal>
                     <DropdownMenuSubContent className="w-64 p-2" sideOffset={8}>
+                      <DropdownMenuItem asChild>
+                        <Link href="/products" className="py-3">All products<ArrowUpRight className="ml-auto" /></Link>
+                      </DropdownMenuItem>
+                      <DropdownMenuSeparator />
                       {productLinks.map(({ href, label }) => (
                         <DropdownMenuItem key={href} asChild>
                           <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>
@@ -65,13 +68,14 @@ export function SiteHeader() {
                     </DropdownMenuSubContent>
                   </DropdownMenuPortal>
                 </DropdownMenuSub>
+                <DropdownMenuSeparator />
+                {sectionLinks.map(({ href, label }) => (
+                  <DropdownMenuItem key={href} asChild>
+                    <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>{label}<ArrowUpRight className="ml-auto" /></Link>
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            {sectionLinks.map(({ href, label }) => (
-              <Link key={href} href={href} className={currentPath === href ? "active" : ""} aria-current={currentPath === href ? "page" : undefined}>
-                {label}
-              </Link>
-            ))}
           </nav>
           <Button asChild className="header-contact">
             <Link href="/contact">Contact Us<ArrowUpRight size={16} /></Link>
@@ -84,34 +88,29 @@ export function SiteHeader() {
               <SheetTitle className="text-xl">Explore Rivixa</SheetTitle>
               <SheetDescription>Science with purpose. Care with heart.</SheetDescription>
               <nav aria-label="Mobile navigation">
-                {companyLinks.map(({ href, label }) => (
-                  <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
-                    {label}<ArrowUpRight size={16} />
-                  </Link>
-                ))}
-                <details className={`mobile-products ${inProducts ? "active" : ""}`}>
-                  <summary>Products<ChevronDown size={18} /></summary>
+                <Link href="/" onClick={() => setOpen(false)} aria-current={currentPath === "/" ? "page" : undefined}>Home<ArrowUpRight size={16} /></Link>
+                <details className={`mobile-options ${inOptions ? "active" : ""}`}>
+                  <summary>Options<ChevronDown size={18} /></summary>
                   <div className="mobile-product-links">
-                    <Link href="/products" onClick={() => setOpen(false)} aria-current={currentPath === "/products" ? "page" : undefined}>
-                      All products<ArrowUpRight size={15} />
+                    <Link href="/about" onClick={() => setOpen(false)} aria-current={currentPath === "/about" ? "page" : undefined}>
+                      About Us<ArrowUpRight size={15} />
                     </Link>
-                    <details className="mobile-categories">
-                      <summary>Categories<ChevronDown size={16} /></summary>
+                    <details className={`mobile-products ${inProducts ? "active" : ""}`}>
+                      <summary>Products<ChevronDown size={16} /></summary>
                       <div className="mobile-category-links">
-                        {productLinks.map(({ href, label }) => (
+                        {[{ href: "/products", label: "All products" }, ...productLinks].map(({ href, label }) => (
                           <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
                             {label}<ArrowUpRight size={15} />
                           </Link>
                         ))}
                       </div>
                     </details>
+                    {sectionLinks.map(({ href, label }) => (
+                      <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>{label}<ArrowUpRight size={15} /></Link>
+                    ))}
                   </div>
                 </details>
-                {[...sectionLinks, { href: "/contact", label: "Contact Us" }].map(({ href, label }) => (
-                  <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
-                    {label}<ArrowUpRight size={16} />
-                  </Link>
-                ))}
+                <Link href="/contact" onClick={() => setOpen(false)} aria-current={currentPath === "/contact" ? "page" : undefined}>Contact Us<ArrowUpRight size={16} /></Link>
               </nav>
             </SheetContent>
           </Sheet>

@@ -9,7 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { MumbaiOffice, ProfessionalResources } from "@/components/homepage-resources";
+import { OfficeEditorial } from "@/components/homepage-resources";
 import {
   Commitments,
   Eyebrow,
@@ -30,9 +30,8 @@ export default function Home() {
               Committed to <span>life.</span>
             </h1>
             <p>
-              A focused pharmaceutical company with people at its heart.
-              Guided by scientific thinking, responsibility and the needs of
-              healthcare professionals.
+              A pharmaceutical company guided by science, responsibility
+              and the needs of healthcare professionals.
             </p>
             <div className="hero-actions">
               <Button asChild size="lg">
@@ -109,13 +108,9 @@ export default function Home() {
               <span>there is always a person.</span>
             </h2>
             <p>
-              At Rivixa Lifesciences, we believe the real value of science lies
-              in what it can mean for someone’s life.
-            </p>
-            <p>
-              With our registered office in Mumbai,
-              we’re beginning a focused journey in pharmaceutical care — shaped
-              by responsibility, collaboration and compassion.
+              Based in Mumbai, Rivixa Lifesciences works with healthcare
+              professionals and partners to build a focused, responsible
+              pharmaceutical portfolio.
             </p>
             <Button asChild variant="outline" size="lg">
               <Link href="/about">
@@ -126,9 +121,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ProfessionalResources />
-      <Commitments />
-      <MumbaiOffice />
+      <Commitments compact />
+      <OfficeEditorial />
       <PartnershipCta />
     </main>
   );

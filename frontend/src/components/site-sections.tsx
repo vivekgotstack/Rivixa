@@ -99,25 +99,28 @@ export function PartnershipCta() {
     </section>
   );
 }
-export function Commitments() {
+export function Commitments({ compact = false }: { compact?: boolean } = {}) {
   const items = [
     {
       icon: ShieldCheck,
       number: "01",
       title: "Responsibility in every decision",
       text: "Quality is a priority in how we choose our partners, develop our portfolio and approach our work.",
+      shortText: "Careful choices. Responsible partnerships. A focused portfolio.",
     },
     {
       icon: Microscope,
       number: "02",
       title: "A scientific outlook",
       text: "We listen to healthcare professionals and continue to learn from the needs of clinical practice.",
+      shortText: "Listening to professionals. Learning from clinical practice.",
     },
     {
       icon: HeartHandshake,
       number: "03",
       title: "People at the centre",
       text: "Behind every healthcare need is a person. Their wellbeing gives our work its purpose and our partnerships their meaning.",
+      shortText: "People and their wellbeing guide our purpose.",
     },
   ];
   return (
@@ -132,11 +135,11 @@ export function Commitments() {
               <span>Our responsibility.</span>
             </h2>
           </div>
-          <p>
+          {!compact && <p>
             What we believe shapes how we move forward.
             <br />
             These are the principles behind our ambition.
-          </p>
+          </p>}
         </div>
         <div className="commitment-grid">
           {items.map((item) => (
@@ -146,15 +149,15 @@ export function Commitments() {
                 <span>{item.number}</span>
               </div>
               <h3>{item.title}</h3>
-              <p>{item.text}</p>
+              <p>{compact ? item.shortText : item.text}</p>
             </article>
           ))}
         </div>
-        <div className="commitment-note">
+        {!compact && <div className="commitment-note">
           <span>
             A shared ambition: thoughtful healthcare, meaningful human impact.
           </span>
-        </div>
+        </div>}
       </div>
     </section>
   );

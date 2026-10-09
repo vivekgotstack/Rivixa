@@ -1,5 +1,11 @@
 # Website image assets
 
+## Indian office photograph
+
+Saved asset: `public/images/india-office.jpg`
+
+Existing photograph by [Capture Crew / Pexels · 33827314](https://www.pexels.com/photo/modern-office-interior-with-minimalist-design-33827314/), photographed in Sahibzada Ajit Singh Nagar, Punjab, India. Downloaded under the [Pexels licence](https://www.pexels.com/license/). This compact office interior is representative photography, not Rivixa's actual premises. No AI generation or retouching was used for this asset.
+
 The laboratory hero, joint illustration and packshots were generated with the built-in image-generation tool on 5 October 2026. WebP copies are used in the website. The Gynaecology image is a real stock photograph sourced below. All nine product packshots use the supplied PDFs as packaging references; the original PDFs remain the source for label facts.
 
 ## moxivix
