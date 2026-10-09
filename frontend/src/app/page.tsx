@@ -9,6 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { MumbaiOffice, ProfessionalResources } from "@/components/homepage-resources";
 import {
   Commitments,
   Eyebrow,
@@ -125,7 +126,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ProfessionalResources />
       <Commitments />
+      <MumbaiOffice />
       <PartnershipCta />
     </main>
   );

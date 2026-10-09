@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/sheet";
 import {
   DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger,
+  DropdownMenuPortal, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger,
 } from "@/components/ui/dropdown-menu";
 import { company } from "@/lib/site";
 import { companyLinks, productLinks, sectionLinks } from "@/lib/navigation";
@@ -50,13 +51,20 @@ export function SiteHeader() {
                 <DropdownMenuItem asChild>
                   <Link href="/products" className="py-3">All products<ArrowUpRight className="ml-auto" /></Link>
                 </DropdownMenuItem>
-                {productLinks.map(({ href, label }) => (
-                  <DropdownMenuItem key={href} asChild>
-                    <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>
-                      {label}<ArrowUpRight className="ml-auto" />
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
+                <DropdownMenuSub>
+                  <DropdownMenuSubTrigger className="py-3">Categories</DropdownMenuSubTrigger>
+                  <DropdownMenuPortal>
+                    <DropdownMenuSubContent className="w-64 p-2" sideOffset={8}>
+                      {productLinks.map(({ href, label }) => (
+                        <DropdownMenuItem key={href} asChild>
+                          <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>
+                            {label}<ArrowUpRight className="ml-auto" />
+                          </Link>
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuSubContent>
+                  </DropdownMenuPortal>
+                </DropdownMenuSub>
               </DropdownMenuContent>
             </DropdownMenu>
             {sectionLinks.map(({ href, label }) => (
@@ -84,11 +92,19 @@ export function SiteHeader() {
                 <details className={`mobile-products ${inProducts ? "active" : ""}`}>
                   <summary>Products<ChevronDown size={18} /></summary>
                   <div className="mobile-product-links">
-                    {[{ href: "/products", label: "All products" }, ...productLinks].map(({ href, label }) => (
-                      <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
-                        {label}<ArrowUpRight size={15} />
-                      </Link>
-                    ))}
+                    <Link href="/products" onClick={() => setOpen(false)} aria-current={currentPath === "/products" ? "page" : undefined}>
+                      All products<ArrowUpRight size={15} />
+                    </Link>
+                    <details className="mobile-categories">
+                      <summary>Categories<ChevronDown size={16} /></summary>
+                      <div className="mobile-category-links">
+                        {productLinks.map(({ href, label }) => (
+                          <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
+                            {label}<ArrowUpRight size={15} />
+                          </Link>
+                        ))}
+                      </div>
+                    </details>
                   </div>
                 </details>
                 {[...sectionLinks, { href: "/contact", label: "Contact Us" }].map(({ href, label }) => (
