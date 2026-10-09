@@ -16,7 +16,7 @@ export function SiteFooter() {
             </p>
             <span className="footer-location">
               <MapPin size={15} />
-              Mumbai & Lucknow, India
+              Mumbai, India
             </span>
           </div>
           <div>

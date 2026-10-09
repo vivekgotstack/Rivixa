@@ -8,7 +8,6 @@ export type Product = {
   composition: string;
   pack: string;
   image: string;
-  leaflet?: string;
   pending?: boolean;
 };
 

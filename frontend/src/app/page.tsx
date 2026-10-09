@@ -139,7 +139,7 @@ export default function Home() {
               in what it can mean for someone’s life.
             </p>
             <p>
-              With our registered office in Mumbai and a branch in Lucknow,
+              With our registered office in Mumbai,
               we’re beginning a focused journey in Gynaecology, Ophthalmology
               and Orthopedic care — shaped by responsibility, collaboration and
               compassion.

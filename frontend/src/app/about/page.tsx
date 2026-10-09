@@ -12,7 +12,7 @@ import patientCare from "../../../public/images/patient-care.jpg";
 export const metadata: Metadata = {
   title: "About Rivixa",
   description:
-    "Meet Rivixa Lifesciences, with a registered office in Mumbai, a branch in Lucknow and a focus on three areas of healthcare.",
+    "Meet Rivixa Lifesciences, with a registered office in Mumbai and a focus on three areas of healthcare.",
 };
 export default function AboutPage() {
   return (
@@ -71,33 +71,27 @@ export default function AboutPage() {
           <div>
             <Eyebrow>ROOTED IN INDIA</Eyebrow>
             <h2>
-              Two cities.
+              Based in Mumbai.
               <br />
-              <span>One shared direction.</span>
+              <span>Focused on better care.</span>
             </h2>
             <p>
-              Our registered office in Mumbai and branch in Lucknow form the
+              Our registered office in Mumbai forms the
               starting point of our journey.
             </p>
             <Button asChild variant="outline">
               <Link href="/contact">
-                Find our offices
+                Find our office
                 <ArrowUpRight size={16} />
               </Link>
             </Button>
           </div>
-          <div className="city-grid">
+          <div className="city-grid single-city">
             <div>
               <MapPin />
               <span>REGISTERED OFFICE</span>
               <h3>Mumbai</h3>
               <p>Maharashtra, India</p>
-            </div>
-            <div>
-              <MapPin />
-              <span>BRANCH OFFICE</span>
-              <h3>Lucknow</h3>
-              <p>Uttar Pradesh, India</p>
             </div>
           </div>
         </div>

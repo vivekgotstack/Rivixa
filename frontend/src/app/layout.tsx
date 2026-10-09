@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Rivixa Lifesciences",
   },
   description:
-    "Rivixa Lifesciences Private Limited. A focused journey in Gynaecology, Ophthalmology and Orthopedic care, with offices in Mumbai and Lucknow, India.",
+    "Rivixa Lifesciences Private Limited. A focused journey in Gynaecology, Ophthalmology and Orthopedic care, with a registered office in Mumbai, India.",
   openGraph: {
     title: "Rivixa Lifesciences",
     description:

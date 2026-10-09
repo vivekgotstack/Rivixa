@@ -7,7 +7,7 @@ import { company } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Connect with Rivixa Lifesciences for professional enquiries, portfolio information and partnerships. Find our Mumbai and Lucknow offices.",
+    "Connect with Rivixa Lifesciences for professional enquiries, portfolio information and partnerships. Find our registered office in Mumbai.",
 };
 export default function ContactPage() {
   return (
@@ -44,35 +44,22 @@ export default function ContactPage() {
                 <ArrowUpRight size={17} />
               </a>
             </div>
-            {[
-              {
-                title: "Registered office",
-                city: "Mumbai",
-                address: company.registeredOffice,
-              },
-              {
-                title: "Branch office",
-                city: "Lucknow",
-                address: company.branchOffice,
-              },
-            ].map((o) => (
-              <address className="office" key={o.city}>
-                <MapPin size={21} strokeWidth={1.5} />
-                <div>
-                  <span>{o.title}</span>
-                  <h3>{o.city}</h3>
-                  <p>{o.address}</p>
-                  <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(o.address)}`}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View location
-                    <ArrowUpRight size={14} />
-                  </a>
-                </div>
-              </address>
-            ))}
+            <address className="office">
+              <MapPin size={21} strokeWidth={1.5} />
+              <div>
+                <span>Registered office</span>
+                <h3>Mumbai</h3>
+                <p>{company.registeredOffice}</p>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(company.registeredOffice)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View location
+                  <ArrowUpRight size={14} />
+                </a>
+              </div>
+            </address>
           </div>
           <Suspense fallback={<p>Loading enquiry form…</p>}>
             <ContactForm />

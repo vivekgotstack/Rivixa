@@ -8,8 +8,6 @@ export const company = {
   cin: "U46497MH2026PTC471423",
   registeredOffice:
     "14-L, Floor-6th, Navjeevan Commercial Premises, Mumbai Central, Mumbai – 400008, Maharashtra",
-  branchOffice:
-    "KH No. 614, Ram Dulare Nagar, Amrai Gaon, Indira Nagar, Lucknow – 226016, Uttar Pradesh, India",
 };
 export const specialties = [
   {

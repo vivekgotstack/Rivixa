@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { ArrowUpRight, FileText, Search } from "lucide-react";
+import { ArrowUpRight, Search } from "lucide-react";
 import { company } from "@/lib/site";
 import type { Product } from "@/lib/products";
 
@@ -18,7 +18,7 @@ export function ProductCatalogue({ products, area }: { products: Product[]; area
   return <section id="products" className="catalogue" aria-labelledby="catalogue-title">
     <div className="section-heading">
       <div><p className="eyebrow">THE RIVIXA RANGE</p><h2 id="catalogue-title">Focused on vision.<br/><span>Formulated with care.</span></h2></div>
-      <p>Explore our {area.toLowerCase()} portfolio. Browse product compositions, pack sizes and the supplied packaging information.</p>
+      <p>Explore our {area.toLowerCase()} portfolio. Browse product compositions and pack sizes, or contact our team for more information.</p>
     </div>
     <div className="catalogue-controls">
       <label className="catalogue-search"><Search size={18} aria-hidden="true"/><span className="sr-only">Search products or composition</span><input type="search" placeholder="Search products or composition…" value={query} onChange={e=>setQuery(e.target.value)}/></label>
@@ -33,11 +33,11 @@ export function ProductCatalogue({ products, area }: { products: Product[]; area
           <h3>{p.name}</h3>
           <dl><div><dt>Composition</dt><dd>{p.composition || "Product specifications coming soon. Contact our team for details."}</dd></div></dl>
           {p.pending && <p className="product-pending">Illustrative packaging · Details pending</p>}
-          <div className="product-actions"><a className="text-link" href={`mailto:${company.email}?subject=${encodeURIComponent(`Product enquiry: ${p.name}`)}&body=${encodeURIComponent(`Hello Rivixa team,\n\nPlease share availability and product information for ${p.name} (${area}).\n\nThank you.`)}`}>Enquire <ArrowUpRight size={16}/></a>{p.leaflet && <a href={p.leaflet} target="_blank" rel="noreferrer" className="product-source" aria-label={`View ${p.name} packaging PDF`}><FileText size={14}/> Product PDF</a>}</div>
+          <div className="product-actions"><a className="text-link" href={`mailto:${company.email}?subject=${encodeURIComponent(`Product enquiry: ${p.name}`)}&body=${encodeURIComponent(`Hello Rivixa team,\n\nPlease share availability and product information for ${p.name} (${area}).\n\nThank you.`)}`}>Enquire <ArrowUpRight size={16}/></a></div>
         </div>
       </article>)}
     </div>
     {filtered.length === 0 && <div className="catalogue-empty"><h3>No matching products</h3><p>Try another name or composition, or clear your filters.</p><button className="text-link" onClick={()=>{setQuery("");setCategory("");}}>Clear filters</button></div>}
-    <p className="catalogue-note">Pack images are illustrative. Refer to the product PDF for supplied label information and consult a healthcare professional for use.</p>
+    <p className="catalogue-note">Pack images are illustrative. Contact our team for product information and consult a healthcare professional for use.</p>
   </section>;
 }
