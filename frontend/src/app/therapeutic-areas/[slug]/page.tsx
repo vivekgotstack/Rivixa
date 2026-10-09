@@ -34,7 +34,7 @@ export default async function SpecialtyPage({
       <nav aria-label="Breadcrumb" className="container breadcrumbs">
         <Link href="/">Home</Link>
         <ChevronRight size={12} />
-        <Link href="/therapeutic-areas">Therapeutic areas</Link>
+        <Link href="/products">Products</Link>
         <ChevronRight size={12} />
         <span>{s.name}</span>
       </nav>

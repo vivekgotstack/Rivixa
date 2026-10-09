@@ -13,7 +13,6 @@ import {
   Commitments,
   Eyebrow,
   PartnershipCta,
-  SpecialtyCards,
 } from "@/components/site-sections";
 import scienceHero from "../../public/images/science-hero.webp";
 import patientCare from "../../public/images/patient-care.jpg";
@@ -31,12 +30,13 @@ export default function Home() {
             </h1>
             <p>
               A focused pharmaceutical company with people at its heart.
-              Exploring better care in women’s health, vision and mobility.
+              Guided by scientific thinking, responsibility and the needs of
+              healthcare professionals.
             </p>
             <div className="hero-actions">
               <Button asChild size="lg">
-                <Link href="/therapeutic-areas">
-                  Our therapeutic areas
+                <Link href="/products">
+                  Explore our products
                   <ArrowUpRight size={18} />
                 </Link>
               </Button>
@@ -45,7 +45,7 @@ export default function Home() {
                 <ArrowRight size={17} />
               </Link>
             </div>
-            <div className="hero-footnote"><span>WOMEN’S HEALTH</span><span>VISION</span><span>MOBILITY</span></div>
+            <div className="hero-footnote"><span>SCIENCE</span><span>QUALITY</span><span>CARE</span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-photo">
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
         <div className="container hero-bottom">
-          <a href="#therapeutic-areas">
+          <a href="#about-rivixa">
             Discover our world
             <ArrowDown size={15} />
           </a>
@@ -83,34 +83,7 @@ export default function Home() {
           </span>
         </div>
       </div>
-      <section className="section-pad areas-section" id="therapeutic-areas">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <Eyebrow>OUR THERAPEUTIC AREAS</Eyebrow>
-              <h2>
-                Three areas of care.
-                <br />
-                <span>A lifetime of difference.</span>
-              </h2>
-            </div>
-            <p>
-              Our focus brings together women’s health, eye care and
-              musculoskeletal wellbeing. Explore our therapeutic areas and
-              product portfolio.
-            </p>
-          </div>
-          <SpecialtyCards />
-          <div className="area-bottom">
-            <span>Specialised focus. A shared commitment to life.</span>
-            <Link className="text-link" href="/therapeutic-areas">
-              All therapeutic areas
-              <ArrowRight size={16} />
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section className="about-section section-pad">
+      <section className="about-section section-pad" id="about-rivixa">
         <div className="container about-grid">
           <div className="about-visual">
             <div className="about-photo">
@@ -140,9 +113,8 @@ export default function Home() {
             </p>
             <p>
               With our registered office in Mumbai,
-              we’re beginning a focused journey in Gynaecology, Ophthalmology
-              and Orthopedic care — shaped by responsibility, collaboration and
-              compassion.
+              we’re beginning a focused journey in pharmaceutical care — shaped
+              by responsibility, collaboration and compassion.
             </p>
             <Button asChild variant="outline" size="lg">
               <Link href="/about">

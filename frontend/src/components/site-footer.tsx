@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin } from "lucide-react";
 import { Brand } from "@/components/brand";
-import { company, specialties } from "@/lib/site";
+import { company } from "@/lib/site";
+import { sectionLinks } from "@/lib/navigation";
 export function SiteFooter() {
   return (
     <footer className="site-footer">
@@ -22,15 +23,15 @@ export function SiteFooter() {
           <div>
             <h3>Discover Rivixa</h3>
             <Link href="/about">About us</Link>
-            <Link href="/therapeutic-areas">Therapeutic areas</Link>
+            <Link href="/products">Products</Link>
             <Link href="/#our-commitment">Our commitment</Link>
             <Link href="/contact">Contact us</Link>
           </div>
           <div>
-            <h3>Our focus</h3>
-            {specialties.map((s) => (
-              <Link key={s.slug} href={`/therapeutic-areas/${s.slug}`}>
-                {s.name}
+            <h3>More from Rivixa</h3>
+            {sectionLinks.map(({ href, label }) => (
+              <Link key={href} href={href}>
+                {label}
               </Link>
             ))}
           </div>

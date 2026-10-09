@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -6,37 +7,27 @@ import { ArrowUpRight, ChevronDown, Mail, Menu } from "lucide-react";
 import { Brand } from "@/components/brand";
 import { Button } from "@/components/ui/button";
 import {
-  Sheet,
-  SheetContent,
-  SheetTitle,
-  SheetTrigger,
-  SheetDescription,
+  Sheet, SheetContent, SheetTitle, SheetTrigger, SheetDescription,
 } from "@/components/ui/sheet";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
+  DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { company, specialties } from "@/lib/site";
+import { company } from "@/lib/site";
+import { companyLinks, productLinks, sectionLinks } from "@/lib/navigation";
+
 export function SiteHeader() {
   const pathname = usePathname();
   const currentPath = pathname.replace(/\/$/, "") || "/";
-  const selectedArea = specialties.find(
-    (area) => currentPath === `/therapeutic-areas/${area.slug}`,
-  );
+  const inProducts = currentPath.startsWith("/products") || currentPath.startsWith("/therapeutic-areas");
   const [open, setOpen] = useState(false);
+
   return (
     <>
       <div className="topbar">
         <div className="container topbar-inner">
-          <span>
-            <i />Pharmaceutical care. With people at its heart.
-          </span>
+          <span><i />Pharmaceutical care. With people at its heart.</span>
           <a href={`mailto:${company.email}`}>
-            <Mail size={13} />
-            {company.email}
-            <ArrowUpRight size={13} />
+            <Mail size={13} />{company.email}<ArrowUpRight size={13} />
           </a>
         </div>
       </div>
@@ -44,90 +35,65 @@ export function SiteHeader() {
         <div className="container header-inner">
           <Brand />
           <nav aria-label="Main navigation" className="desktop-nav">
-            <Link
-              className={pathname === "/" ? "active" : ""}
-              aria-current={pathname === "/" ? "page" : undefined}
-              href="/"
-            >
-              Home
-            </Link>
-            <Link
-              className={pathname === "/about" ? "active" : ""}
-              aria-current={pathname === "/about" ? "page" : undefined}
-              href="/about"
-            >
-              About us
-            </Link>
+            {companyLinks.map(({ href, label }) => (
+              <Link key={href} href={href} className={currentPath === href ? "active" : ""} aria-current={currentPath === href ? "page" : undefined}>
+                {label}
+              </Link>
+            ))}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button
-                  variant="ghost"
-                  className={`nav-dropdown ${pathname.startsWith("/therapeutic-areas") ? "active" : ""}`}
-                >
-                  {selectedArea?.name ?? "Therapeutic areas"}
-                  <ChevronDown size={14} />
+                <Button variant="ghost" className={`nav-dropdown ${inProducts ? "active" : ""}`}>
+                  Products<ChevronDown size={14} />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-64 p-2">
                 <DropdownMenuItem asChild>
-                  <Link href="/therapeutic-areas" className="py-3">
-                    Explore all areas
-                    <ArrowUpRight className="ml-auto" />
-                  </Link>
+                  <Link href="/products" className="py-3">All products<ArrowUpRight className="ml-auto" /></Link>
                 </DropdownMenuItem>
-                {specialties.map((s) => (
-                  <DropdownMenuItem key={s.slug} asChild>
-                    <Link
-                      href={`/therapeutic-areas/${s.slug}`}
-                      className="py-3"
-                      aria-current={selectedArea?.slug === s.slug ? "page" : undefined}
-                    >
-                      {s.name}
-                      <ArrowUpRight className="ml-auto" />
+                {productLinks.map(({ href, label }) => (
+                  <DropdownMenuItem key={href} asChild>
+                    <Link href={href} className="py-3" aria-current={currentPath === href ? "page" : undefined}>
+                      {label}<ArrowUpRight className="ml-auto" />
                     </Link>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link href="/#our-commitment">Our commitment</Link>
+            {sectionLinks.map(({ href, label }) => (
+              <Link key={href} href={href} className={currentPath === href ? "active" : ""} aria-current={currentPath === href ? "page" : undefined}>
+                {label}
+              </Link>
+            ))}
           </nav>
           <Button asChild className="header-contact">
-            <Link href="/contact">
-              Contact us
-              <ArrowUpRight size={16} />
-            </Link>
+            <Link href="/contact">Contact Us<ArrowUpRight size={16} /></Link>
           </Button>
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-              <Button
-                variant="outline"
-                size="icon"
-                className="mobile-menu"
-                aria-label="Open navigation"
-              >
-                <Menu />
-              </Button>
+              <Button variant="outline" size="icon" className="mobile-menu" aria-label="Open navigation"><Menu /></Button>
             </SheetTrigger>
             <SheetContent className="mobile-panel">
               <SheetTitle className="text-xl">Explore Rivixa</SheetTitle>
-              <SheetDescription>
-                Science with purpose. Care with heart.
-              </SheetDescription>
+              <SheetDescription>Science with purpose. Care with heart.</SheetDescription>
               <nav aria-label="Mobile navigation">
-                {[
-                  ["/", "Home"],
-                  ["/about", "About us"],
-                  ["/therapeutic-areas", "Therapeutic areas"],
-                  ...specialties.map((s) => [
-                    `/therapeutic-areas/${s.slug}`,
-                    s.name,
-                  ]),
-                  ["/#our-commitment", "Our commitment"],
-                  ["/contact", "Contact us"],
-                ].map(([href, label]) => (
+                {companyLinks.map(({ href, label }) => (
                   <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
-                    {label}
-                    <ArrowUpRight size={16} />
+                    {label}<ArrowUpRight size={16} />
+                  </Link>
+                ))}
+                <details className={`mobile-products ${inProducts ? "active" : ""}`}>
+                  <summary>Products<ChevronDown size={18} /></summary>
+                  <div className="mobile-product-links">
+                    {[{ href: "/products", label: "All products" }, ...productLinks].map(({ href, label }) => (
+                      <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
+                        {label}<ArrowUpRight size={15} />
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+                {[...sectionLinks, { href: "/contact", label: "Contact Us" }].map(({ href, label }) => (
+                  <Link key={href} href={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}>
+                    {label}<ArrowUpRight size={16} />
                   </Link>
                 ))}
               </nav>
