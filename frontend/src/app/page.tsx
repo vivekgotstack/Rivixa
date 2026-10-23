@@ -10,10 +10,10 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { OfficeEditorial } from "@/components/homepage-resources";
+import { HelpBanner } from "@/components/help-banner";
 import {
   Commitments,
   Eyebrow,
-  PartnershipCta,
 } from "@/components/site-sections";
 import scienceHero from "../../public/images/science-hero.webp";
 import patientCare from "../../public/images/patient-care.jpg";
@@ -123,7 +123,7 @@ export default function Home() {
       </section>
       <Commitments compact />
       <OfficeEditorial />
-      <PartnershipCta />
+      <HelpBanner />
     </main>
   );
 }

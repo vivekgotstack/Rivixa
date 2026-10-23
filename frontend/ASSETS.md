@@ -1,5 +1,11 @@
 # Website image assets
 
+## Help banner portrait
+
+Saved asset: `public/images/help-portrait.jpg`
+
+Existing Indian portrait by [praveen k mohanan / Pexels · 8134707](https://www.pexels.com/photo/man-in-blue-long-sleeves-shirt-with-his-hands-crossed-8134707/), under the [Pexels licence](https://www.pexels.com/license/). Used as decorative, representative photography, not as a Rivixa employee or medical-professional endorsement. No AI generation or retouching.
+
 ## Indian office photograph
 
 Saved asset: `public/images/india-office.jpg`

@@ -1,11 +1,11 @@
 # Frontend catalogue
 
-The catalogue is bundled from src/lib/products.json. It contains only the nine Rivixa eye-drop products requested for Ophthalmology. Search and group filters run locally; no external catalogue, database or runtime download is used.
+The catalogue is bundled from `src/lib/products.json`: nine Ophthalmology products, six Gynaecology products and two Orthopedic products. Search and group filters run locally; no external catalogue, database or runtime download is used.
 
 Six formulations and pack sizes come from locally supplied packaging PDFs: MOXIVIX, MOXIVIX-LP, NEPAVIX-CS, LOTEVIX, HYLOVIX and AQUAVIX. HYLOVIX's supplied front artwork does not state a strength, so no strength is published. The Nepavix source filename contains CX, but the actual label reads NEPAVIX-CS.
 
-GATIVIX, MOXIVIX-DX and AQUAVIX-FORTE have generic illustrative packaging as approved by the user. Composition and pack size remain unpublished until confirmed PDFs are supplied. Their cards clearly indicate pending details.
+The Gynaecology entries are Fertivix-M, Fertivix-X, Progivix-SR 200ml, Progivix-SR 300ml, Dydrovix -10 and Dydrovix-SR -10. The Orthopedic entries are Calcivix-XT and Calcivix-D3. These eight names were supplied by the user on 23 October 2026. The user explicitly requested preserving the Progivix-SR names as supplied; no mg strength or mL pack size is inferred. Composition, packaging images and pack details remain blank until supplied. Their cards use a branded text panel and a product enquiry link.
 
-Product images are generated illustrative carton-and-bottle mockups, not photographs of physical stock. Six are based on supplied artwork; three are generic brand concepts. Source PDFs are served locally through product cards. Gynaecology and Orthopedic pages retain their care content and enquiry links without unsupported product listings.
+The existing Ophthalmology images are generated illustrative carton-and-bottle mockups, not photographs of physical stock. Source PDFs are not linked from the website. Product information and availability can be requested from the company.
 
 Run npm run build to export the site to out/. Publishing requires deploying that folder to the site's static host.

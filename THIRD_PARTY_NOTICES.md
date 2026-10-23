@@ -14,6 +14,7 @@ The frontend uses Next.js, React, TypeScript, Tailwind CSS, shadcn/ui, Radix UI,
 | Eye close-up | [Unsplash · photo-1494869042583-f6c911f04b4c](https://images.unsplash.com/photo-1494869042583-f6c911f04b4c) |
 | Face-free maternity close-up in light-blue clothing | [Matilda Wormwood / Pexels · 7484612](https://www.pexels.com/photo/pregnant-woman-touching-her-belly-7484612/) |
 | Compact office interior in Punjab, India | [Capture Crew / Pexels · 33827314](https://www.pexels.com/photo/modern-office-interior-with-minimalist-design-33827314/) |
+| Indian portrait in the help banner | [praveen k mohanan / Pexels · 8134707](https://www.pexels.com/photo/man-in-blue-long-sleeves-shirt-with-his-hands-crossed-8134707/) |
 
 Stock photography is representative and does not identify Rivixa employees, patients or facilities. The Rivixa logo and product packaging artwork were supplied for this project.
 
