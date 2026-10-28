@@ -1,6 +1,6 @@
 # Frontend catalogue
 
-The catalogue is bundled from `src/lib/products.json`: nine Ophthalmology products, six Gynaecology products and two Orthopedic products. Search and group filters run locally; no external catalogue, database or runtime download is used.
+The catalogue is bundled from `src/lib/products.json`: 23 unique products, including eleven Ophthalmology products, six Gynaecology products, three Orthopedic products and six General Products. Some products appear in more than one section. Search and group filters run locally; no external catalogue, database or runtime download is used.
 
 Six formulations and pack sizes come from locally supplied packaging PDFs: MOXIVIX, MOXIVIX-LP, NEPAVIX-CS, LOTEVIX, HYLOVIX and AQUAVIX. HYLOVIX's supplied front artwork does not state a strength, so no strength is published. The Nepavix source filename contains CX, but the actual label reads NEPAVIX-CS.
 
@@ -13,3 +13,5 @@ The existing Ophthalmology images are generated illustrative carton-and-bottle m
 Run npm run build to export the site to out/. Publishing requires deploying that folder to the site's static host.
 
 Names confirmed 28 October 2026: Fertivix-S, Progevix 200, Progevix 300 SR, Dydrovix 10 and Dydrovix 20 SR. Fertivix-S, both Progevix entries and Dydrovix 20 SR use text nameplates until corrected packaging artwork is available.
+
+Six supplied labels added 28 October 2026: Gastrovix-DSR, MIGRAVIX-10, VIXANAC-SP, Vitavix Plus, Vitavix tablets and Vitavix Syrup. Each has a generated studio packshot based on the label's product identity. Composition and pack text come from the product panels, excluding printer annotations and order quantities. Gastrovix-DSR has no confirmed retail pack count, so its pack field remains blank. All six appear under General Products; VIXANAC-SP also appears under Orthopedic, and Vitavix tablets and syrup under Ophthalmology. The render originals and exact prompts are preserved in `../design/packaging/2026-10-28/`.

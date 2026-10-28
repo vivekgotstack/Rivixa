@@ -1,5 +1,11 @@
 # Website image assets
 
+## Supplied-label product packshots · 28 October 2026
+
+Six studio packshots were created with the built-in imagegen tool for Gastrovix-DSR, MIGRAVIX-10, VIXANAC-SP, Vitavix Plus, Vitavix tablets and Vitavix Syrup. Names, ingredient descriptions, strengths and known pack sizes follow the user's supplied packaging panels. White cartons, original product accent colours, blue Rivixa branding and green company descriptors are retained. Printer quantities and sheet dimensions are excluded.
+
+Website assets: `public/products/gastrovix-dsr-3d.webp`, `migravix-10-3d.webp`, `vixanac-sp-3d.webp`, `vitavix-plus-3d.webp`, `vitavix-tablets-3d.webp`, `vitavix-syrup-3d.webp`. The originals and [exact generation prompts](../design/packaging/2026-10-28/PROMPTS.md) are preserved in `../design/packaging/2026-10-28/`. WebPs are compressed with Sharp on a 1000 × 1000 white canvas. These are illustrative website renders.
+
 ## Gynaecology and bone-health carton concepts · 23 October 2026
 
 Eight original packshots were created using the built-in imagegen tool, with the supplied Rivixa logo and existing MOXIVIX-LP packshot as branding and photographic references. Green “Lifesciences Pvt Ltd” branding is retained. The numbers supplied for Progevix and Dydrovix are displayed as mg strengths. Each image is marked “PACKAGING CONCEPT”; no unconfirmed composition, dosage form, pack count, manufacturer credential or registration claim is printed.

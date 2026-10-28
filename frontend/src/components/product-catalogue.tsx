@@ -12,7 +12,7 @@ export function ProductCatalogue({ products, area }: { products: Product[]; area
   const groups = [...new Set(products.map(p => p.category))].sort();
   const needle = query.trim().toLowerCase();
   const filtered = products.filter(p => (!category || p.category === category) && `${p.name} ${p.composition} ${p.category}`.toLowerCase().includes(needle));
-  const catalogueHeading = area === "Ophthalmology" ? "Focused on vision." : area === "Gynaecology" ? "Supporting women’s health." : "A focus on bone health.";
+  const catalogueHeading = area === "Ophthalmology" ? "Focused on vision." : area === "Gynaecology" ? "Supporting women’s health." : area === "Orthopedic" ? "A focus on bone health." : "Care for everyday health.";
 
   if (!products.length) return null;
 

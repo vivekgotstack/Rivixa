@@ -24,7 +24,7 @@ A focused corporate healthcare experience connecting healthcare professionals an
 ## Experience
 
 - Dedicated Gynaecology, Ophthalmology and Orthopedic pages.
-- Nine Rivixa Ophthalmology products with 3D pack illustrations, search, product group filters, local packaging PDFs and product enquiries. See [catalogue data notes](frontend/CATALOGUE.md).
+- A bundled catalogue of 23 Rivixa products across therapeutic areas and General Products, with 3D pack illustrations, search, product group filters and product enquiries. See [catalogue data notes](frontend/CATALOGUE.md).
 - Company profile, guiding principles and Mumbai and Lucknow office information.
 - Professional enquiry flow with specialty selection and a reviewable email draft.
 - Responsive navigation, accessible form controls and keyboard support.
