@@ -47,7 +47,7 @@ export function SiteHeader() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            {[...sectionLinks, { href: "/contact", label: "Contact Us" }].map(({ href, label }) => (
+            {sectionLinks.map(({ href, label }) => (
               <Link key={href} href={href} className={currentPath === href ? "active" : ""} aria-current={currentPath === href ? "page" : undefined}>{label}</Link>
             ))}
           </nav>
