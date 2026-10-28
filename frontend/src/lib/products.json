@@ -10,10 +10,10 @@
   { "id": "aquavix-forte", "name": "AQUAVIX-FORTE", "areas": ["ophthalmology"], "category": "Lubricant", "composition": "Hydroxypropylmethylcellulose 0.3% w/v + Dextran 70 0.1% w/v + Glycerin 0.2% w/v eye drops", "pack": "10 mL", "image": "/products/aquavix-forte-3d.webp" },
   { "id": "fertivix-m", "name": "Fertivix-M", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "/products/fertivix-m-3d.webp", "pending": true },
   { "id": "fertivix-s", "name": "Fertivix-S", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
-  { "id": "progevix-sr-200", "name": "Progevix-SR 200 mg", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
-  { "id": "progevix-sr-300", "name": "Progevix-SR 300 mg", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
-  { "id": "dydrovix-10", "name": "Dydrovix 10 mg", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "/products/dydrovix-10-3d.webp", "pending": true },
-  { "id": "dydrovix-sr-10", "name": "Dydrovix-SR 10 mg", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "/products/dydrovix-sr-10-3d.webp", "pending": true },
+  { "id": "progevix-200", "name": "Progevix 200", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
+  { "id": "progevix-300-sr", "name": "Progevix 300 SR", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
+  { "id": "dydrovix-10", "name": "Dydrovix 10", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "/products/dydrovix-10-3d.webp", "pending": true },
+  { "id": "dydrovix-20-sr", "name": "Dydrovix 20 SR", "areas": ["gynaecology"], "category": "Women's health", "composition": "", "pack": "", "image": "", "pending": true },
   { "id": "calcivix-xt", "name": "Calcivix-XT", "areas": ["orthopedic"], "category": "Bone health", "composition": "", "pack": "", "image": "/products/calcivix-xt-3d.webp", "pending": true },
   { "id": "calcivix-d3", "name": "Calcivix-D3", "areas": ["orthopedic"], "category": "Bone health", "composition": "", "pack": "", "image": "/products/calcivix-d3-3d.webp", "pending": true }
 ]

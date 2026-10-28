@@ -115,4 +115,4 @@ Saved asset: `public/images/joint-care.webp`
 Prompt: Premium photorealistic 3D medical illustration for bone and joint health website, 4:3 landscape. Centered close-up anatomical human knee joint model, femur and tibia meeting with patella, anatomically credible smooth ivory bones and turquoise cartilage against softly lit pale mint studio background, subtle navy gradient shadows. Show joint clearly, no skin, no person legs, no blood, no text, no labels, no logos, elegant clinical render with ample breathing room.
 
 
-The Fertivix-S and Progevix-SR 200/300 mg cards use text nameplates pending corrected artwork. The historical files named fertivix-x and progivix contain outdated brand labels and are not displayed.
+The Fertivix-S, Progevix 200, Progevix 300 SR and Dydrovix 20 SR cards use text nameplates pending corrected artwork. The historical files named fertivix-x, progivix and dydrovix-sr-10 contain outdated brand labels or strengths and are not displayed.
