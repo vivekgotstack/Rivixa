@@ -972,6 +972,13 @@ h2 > span {
   object-fit: cover;
   object-position: 35% center;
 }
+.about-focus-collage { display:grid; grid-template-columns:1.08fr .92fr; grid-template-rows:1fr 1fr; gap:10px; padding:10px; background:#edf6fc; }
+.about-focus-tile { position:relative; min-width:0; min-height:0; margin:0; overflow:hidden; border-radius:7px; background:#dbeaf4; }
+.about-focus-tile-featured { grid-row:1 / span 2; }
+.about-focus-tile img { object-fit:cover; object-position:center; transition:transform .3s ease; }
+.about-focus-tile:hover img { transform:scale(1.035); }
+.about-focus-tile::after { position:absolute; inset:35% 0 0; background:linear-gradient(transparent,#082e65b8); content:""; pointer-events:none; }
+.about-focus-tile figcaption { position:absolute; z-index:1; bottom:15px; left:17px; color:#fff; font-size:11px; font-weight:700; letter-spacing:.5px; text-shadow:0 1px 8px #082e65a3; }
 .presence-section {
   display: grid;
   grid-template-columns: 1fr 1.1fr;

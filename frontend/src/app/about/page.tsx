@@ -8,7 +8,7 @@ import {
   Eyebrow,
   PartnershipCta,
 } from "@/components/site-sections";
-import patientCare from "../../../public/images/patient-care.jpg";
+import { specialties } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Rivixa",
   description:
@@ -30,15 +30,11 @@ export default function AboutPage() {
       </section>
       <section className="section-pad">
         <div className="container about-grid">
-          <div className="about-page-image">
-            <Image
-              src={patientCare}
-              alt="A healthcare professional listening to a patient"
-              fill
-              sizes="(max-width: 700px) calc(100vw - 40px), (max-width: 1400px) 45vw, 575px"
-              preload
-              placeholder="blur"
-            />
+          <div className="about-page-image about-focus-collage" aria-label="Rivixa’s three portfolio areas">
+            {specialties.map((specialty, index) => <figure className={`about-focus-tile ${index === 0 ? "about-focus-tile-featured" : ""}`} key={specialty.slug}>
+              <Image src={specialty.image} alt={specialty.alt} fill sizes="(max-width: 700px) 90vw, (max-width: 1400px) 45vw, 575px" placeholder="blur" />
+              <figcaption>{specialty.name}</figcaption>
+            </figure>)}
           </div>
           <div className="about-copy">
             <Eyebrow>MEET RIVIXA</Eyebrow>
