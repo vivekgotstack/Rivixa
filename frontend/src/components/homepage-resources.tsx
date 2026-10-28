@@ -25,7 +25,6 @@ export function OfficeEditorial() {
           <div className="office-editorial-photo">
             <Image src={indiaOffice} alt="A compact office with a desk, visitor chairs and plants in Punjab, India; representative photography" fill sizes="(max-width: 850px) calc(100vw - 40px), 50vw" placeholder="blur" />
           </div>
-          <figcaption>Representative office photograph · India</figcaption>
         </figure>
       </div>
     </section>
