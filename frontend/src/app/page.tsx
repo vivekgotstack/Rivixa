@@ -16,7 +16,7 @@ import {
   Eyebrow,
 } from "@/components/site-sections";
 import scienceHero from "../../public/images/science-hero.webp";
-import patientCare from "../../public/images/patient-care.jpg";
+import patientCare from "../../public/images/home-indian-doctor.jpg";
 export default function Home() {
   return (
     <main id="main-content">
@@ -89,9 +89,10 @@ export default function Home() {
             <div className="about-photo">
               <Image
                 src={patientCare}
-                alt="A doctor and patient in conversation during a consultation"
+                alt="A doctor in a clinic in Delhi, India"
                 fill
                 sizes="(max-width: 700px) calc(100vw - 57px), (max-width: 1400px) 43vw, 550px"
+                style={{ objectPosition: "center top" }}
                 placeholder="blur"
               />
             </div>

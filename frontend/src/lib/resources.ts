@@ -4,8 +4,8 @@ export const articles = [
     category: "PRODUCT INFORMATION",
     title: "The details that make a product enquiry clearer.",
     description: "A practical checklist for asking about a brand, its composition, pack and availability.",
-    image: "/images/doctor-consultation.jpg",
-    imageAlt: "A healthcare professional in conversation; representative photograph",
+    image: "/images/blog-product-enquiry.jpg",
+    imageAlt: "A doctor and patient discussing health information during a consultation",
     sections: [
       { title: "Start with the exact product", paragraphs: ["A product name is the starting point of a useful enquiry. Include the complete brand name, any suffix and the strength printed on the pack. Products with similar names can have different compositions or release descriptions, so copying the name exactly helps avoid confusion.", "If you are checking an existing pack, refer to its label when writing your enquiry. A packaging illustration on this website is a visual reference; the label on the supplied product and current information from the company are the appropriate sources for product particulars."] },
       { title: "Add the details that matter to your request", paragraphs: ["Tell the team whether you need composition, dosage form, pack configuration, availability or distribution information. Include your organisation, city and the product you are asking about. For a commercial enquiry, an indicative quantity and delivery location give the conversation a clearer starting point.", "If a composition or pack size is not listed online, ask the team to confirm it. Avoid assuming that a suffix, product colour or a similar brand from another company establishes the formulation."] },
@@ -19,8 +19,8 @@ export const articles = [
     category: "INSIDE RIVIXA",
     title: "Three areas of focus. One thoughtful approach.",
     description: "An introduction to Rivixa’s focus in women’s health, eye care, and bone and joint health.",
-    image: "/images/patient-care.jpg",
-    imageAlt: "A healthcare professional listening to a patient; representative photograph",
+    image: "/images/blog-care-focus.jpg",
+    imageAlt: "An eye care professional examining a patient in a clinic",
     sections: [
       { title: "A focused introduction to our portfolio", paragraphs: ["Rivixa Lifesciences Private Limited is based in Mumbai, with an initial focus on Gynaecology, Ophthalmology and Orthopedic care. These areas provide a way to explore our portfolio and begin a relevant professional conversation with the team.", "The product pages bring brand names, available compositions and pack information together. General Products provides another route into the catalogue, including tablets, capsules and nutritional supplements."] },
       { title: "Explore by area of interest", paragraphs: ["The Gynaecology section introduces the women’s health portfolio. The Ophthalmology section brings together the eye-care range and listed nutritional products. The Orthopedic section includes the bone and joint health portfolio. A product may appear in more than one catalogue section.", "Category placement is a way to organise information. It is not a recommendation for an individual, a complete prescribing reference or a substitute for professional judgement."] },
@@ -34,8 +34,8 @@ export const articles = [
     category: "WORKING TOGETHER",
     title: "Starting a useful distribution conversation.",
     description: "What to share when introducing your business, territory and interest in the Rivixa portfolio.",
-    image: "/images/india-office.jpg",
-    imageAlt: "An office setting in India; representative photograph",
+    image: "/images/blog-partnership.jpg",
+    imageAlt: "Professionals collaborating during a business meeting",
     sections: [
       { title: "Introduce your business and its context", paragraphs: ["A useful partnership introduction starts with who you are, where you operate and how you would like to work together. Share your business name, your role, city and proposed territory. Briefly describe the type of professional or commercial enquiry you are making.", "If your interest is in a particular part of the catalogue, name the area or brands. This helps distinguish a product availability question from a broader discussion about working together."] },
       { title: "Describe the opportunity you see", paragraphs: ["Explain the geographic area and customer segment relevant to your enquiry, together with the products you want to discuss. You can also outline your current operations and any practical questions about documentation, pack configurations or ordering.", "Keep the initial introduction concise. Commercial terms, territory arrangements and any required documentation should be discussed and confirmed directly with the company rather than assumed from information on the website."] },
