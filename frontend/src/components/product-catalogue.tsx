@@ -33,7 +33,7 @@ export function ProductCatalogue({ products, area }: { products: Product[]; area
           <div className="product-meta"><span>{p.category}</span><span>RIVIXA</span></div>
           <h3>{p.name}</h3>
           <dl><div><dt>{p.composition ? "Composition" : "Product information"}</dt><dd>{p.composition || "For composition, pack details and availability, please contact our team."}</dd></div></dl>
-          {p.pending && p.image && <p className="product-pending">Illustrative packaging · Details pending</p>}
+          {p.pending && p.image && <p className="product-pending">Packaging concept · Formulation not confirmed</p>}
           <div className="product-actions"><a className="text-link" href={`mailto:${company.email}?subject=${encodeURIComponent(`Product enquiry: ${p.name}`)}&body=${encodeURIComponent(`Hello Rivixa team,\n\nPlease share availability and product information for ${p.name} (${area}).\n\nThank you.`)}`}>Enquire <ArrowUpRight size={16}/></a></div>
         </div>
       </article>)}

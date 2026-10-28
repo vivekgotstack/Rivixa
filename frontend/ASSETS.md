@@ -1,5 +1,13 @@
 # Website image assets
 
+## Gynaecology and bone-health carton concepts · 23 October 2026
+
+Eight original packshots were created using the built-in imagegen tool, with the supplied Rivixa logo and existing MOXIVIX-LP packshot as branding and photographic references. Green “Lifesciences Pvt Ltd” branding is retained. The numbers supplied for Progevix and Dydrovix are displayed as mg strengths. Each image is marked “PACKAGING CONCEPT”; no unconfirmed composition, dosage form, pack count, manufacturer credential or registration claim is printed.
+
+Saved website assets: `public/products/fertivix-m-3d.webp`, `fertivix-x-3d.webp`, `progivix-sr-200-3d.webp`, `progivix-sr-300-3d.webp`, `dydrovix-10-3d.webp`, `dydrovix-sr-10-3d.webp`, `calcivix-xt-3d.webp`, `calcivix-d3-3d.webp`. WebP copies are resized/compressed with Sharp; original generated PNGs are preserved in `../design/packaging/mockups/`.
+
+The [asset index](../design/packaging/README.md), [full prompt set](../design/packaging/PROMPTS.md) and [source-backed formulation comparison](../design/packaging/REFERENCE-FORMULATIONS.md) are retained for review. Raymed and Neomedix informed the restrained pharmaceutical presentation. Proposed comparison formulas describe those manufacturers' products; they have not been published as Rivixa facts.
+
 ## Help banner portrait
 
 Saved asset: `public/images/help-portrait.jpg`
@@ -106,3 +114,5 @@ Saved asset: `public/images/joint-care.webp`
 
 Prompt: Premium photorealistic 3D medical illustration for bone and joint health website, 4:3 landscape. Centered close-up anatomical human knee joint model, femur and tibia meeting with patella, anatomically credible smooth ivory bones and turquoise cartilage against softly lit pale mint studio background, subtle navy gradient shadows. Show joint clearly, no skin, no person legs, no blood, no text, no labels, no logos, elegant clinical render with ample breathing room.
 
+
+The Fertivix-S and Progevix-SR 200/300 mg cards use text nameplates pending corrected artwork. The historical files named fertivix-x and progivix contain outdated brand labels and are not displayed.
