@@ -11,6 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { OfficeEditorial } from "@/components/homepage-resources";
 import { HelpBanner } from "@/components/help-banner";
+import { ArticleCards } from "@/components/page-sections";
 import {
   Commitments,
   Eyebrow,
@@ -122,6 +123,16 @@ export default function Home() {
         </div>
       </section>
       <Commitments compact />
+      <section className="section-pad home-reading">
+        <div className="container">
+          <div className="section-heading">
+            <div><Eyebrow>IDEAS & INFORMATION</Eyebrow><h2>Clearer answers.<br /><span>Better conversations.</span></h2></div>
+            <p>Explore useful introductions to Rivixa, our product enquiries and working together.</p>
+          </div>
+          <ArticleCards />
+          <Link href="/blogs" className="text-link home-reading-link">Explore all articles<ArrowRight size={17} /></Link>
+        </div>
+      </section>
       <OfficeEditorial />
       <HelpBanner />
     </main>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { SectionPage } from "@/components/section-page";
+import { ArticleCards, PageIntro } from "@/components/page-sections";
+import { NextStep } from "@/components/page-sections";
 
 export const metadata: Metadata = {
   title: "Blogs",
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function BlogsPage() {
-  return <SectionPage title="Blogs" eyebrow="FROM RIVIXA" intro="Perspectives, stories and updates from our team." heading="Our next chapter, in words." description="New articles and company updates will be shared here. For current company or portfolio information, get in touch with our team." />;
+  return <main id="main-content">
+    <PageIntro eyebrow="IDEAS & INFORMATION" title={<>Thoughtful reading.<br /><span>Useful next steps.</span></>} description="Clear introductions to our portfolio, company focus and professional conversations." />
+    <section className="section-pad"><div className="container"><ArticleCards /></div></section>
+    <section className="section-pad section-tint"><div className="container"><NextStep title="Looking for product information?" description="Send the team the exact brand and strength, and tell them what detail you need confirmed." href="/contact?area=general-products" label="Make a product enquiry" /></div></section>
+  </main>;
 }

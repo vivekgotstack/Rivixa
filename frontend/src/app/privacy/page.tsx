@@ -30,6 +30,13 @@ export default function PrivacyPage() {
           shared with Rivixa through your chosen email provider. Please do not
           include patient records or sensitive medical information.
         </p>
+        <p>
+          The career introduction form asks for your name, email address, phone
+          number, city, area of interest, experience and availability. It also
+          has optional fields for your qualification and a CV or professional
+          profile link. Your details are placed in an email draft on your
+          device; they are shared with Rivixa only if you send the email.
+        </p>
         <h2>Website storage</h2>
         <p>
           This frontend does not include advertising trackers or a
