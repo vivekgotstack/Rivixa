@@ -16,7 +16,7 @@ import {
   Eyebrow,
 } from "@/components/site-sections";
 import scienceHero from "../../public/images/science-hero.webp";
-import patientCare from "../../public/images/home-indian-doctor.jpg";
+import pharmaStillLife from "../../public/images/pharma-still-life.webp";
 export default function Home() {
   return (
     <main id="main-content">
@@ -88,25 +88,25 @@ export default function Home() {
           <div className="about-visual">
             <div className="about-photo">
               <Image
-                src={patientCare}
-                alt="A doctor in a clinic in Delhi, India"
+                src={pharmaStillLife}
+                alt="Tablets, an eye-drop bottle and a sealed vial beside a laboratory microscope"
                 fill
                 sizes="(max-width: 700px) calc(100vw - 57px), (max-width: 1400px) 43vw, 550px"
-                style={{ objectPosition: "center top" }}
+                style={{ objectPosition: "center" }}
                 placeholder="blur"
               />
             </div>
             <div className="about-image-caption">
               <span className="caption-line" />
-              <span>Every possibility begins with a person.</span>
+              <span>Science and quality at the heart of our portfolio.</span>
             </div>
           </div>
           <div className="about-copy">
             <Eyebrow>GET TO KNOW RIVIXA</Eyebrow>
             <h2>
-              Behind the science,
+              Behind our portfolio,
               <br />
-              <span>there is always a person.</span>
+              <span>a commitment to quality.</span>
             </h2>
             <p>
               Based in Mumbai, Rivixa Lifesciences works with healthcare
